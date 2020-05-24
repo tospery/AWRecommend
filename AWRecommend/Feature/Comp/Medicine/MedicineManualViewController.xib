@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MedicineManualViewController">
+            <connections>
+                <outlet property="bannerView" destination="9fj-BY-4Eg" id="1t3-ae-D6T"/>
+                <outlet property="headerView" destination="150-ET-O5s" id="pzB-R5-paM"/>
+                <outlet property="scrollView" destination="8bX-Dr-PrT" id="DKF-gk-ULq"/>
+                <outlet property="tableView" destination="iwb-5c-yLl" id="sLe-oV-5UM"/>
+                <outlet property="view" destination="QEa-3y-Vcz" id="2We-5v-r3g"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QEa-3y-Vcz">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bX-Dr-PrT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-jf-zzC" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iwb-5c-yLl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="150-ET-O5s" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fj-BY-4Eg" customClass="JXBannerView">
+                                                <rect key="frame" x="0.0" y="5.5" width="320" height="129"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jai-mx-jvd">
+                                                <rect key="frame" x="0.0" y="139" width="320" height="1"/>
+                                                <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="b6t-z7-hd3"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="9fj-BY-4Eg" secondAttribute="trailing" id="4nP-Fl-Ube"/>
+                                            <constraint firstItem="9fj-BY-4Eg" firstAttribute="centerY" secondItem="150-ET-O5s" secondAttribute="centerY" id="DQG-jZ-inZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jai-mx-jvd" secondAttribute="trailing" id="EKR-7D-mRD"/>
+                                            <constraint firstItem="9fj-BY-4Eg" firstAttribute="leading" secondItem="150-ET-O5s" secondAttribute="leading" id="Mae-bV-qpG"/>
+                                            <constraint firstItem="9fj-BY-4Eg" firstAttribute="height" secondItem="150-ET-O5s" secondAttribute="height" multiplier="120:130" id="RfU-BK-8YI"/>
+                                            <constraint firstAttribute="bottom" secondItem="Jai-mx-jvd" secondAttribute="bottom" id="fcL-q0-Hg2"/>
+                                            <constraint firstItem="Jai-mx-jvd" firstAttribute="leading" secondItem="150-ET-O5s" secondAttribute="leading" id="umK-PT-q6N"/>
+                                        </constraints>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="bAX-8l-YTn" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="518" width="320" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="mat-nA-f2m"/>
+                                        <outlet property="delegate" destination="-1" id="mpx-rd-USP"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="iwb-5c-yLl" firstAttribute="top" secondItem="FZc-jf-zzC" secondAttribute="top" id="KTU-yp-TU5"/>
+                                <constraint firstAttribute="trailing" secondItem="iwb-5c-yLl" secondAttribute="trailing" id="NWT-EZ-P9Y"/>
+                                <constraint firstItem="iwb-5c-yLl" firstAttribute="leading" secondItem="FZc-jf-zzC" secondAttribute="leading" id="bwb-8t-haT"/>
+                                <constraint firstAttribute="bottom" secondItem="iwb-5c-yLl" secondAttribute="bottom" constant="50" id="lEU-VM-0IR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FZc-jf-zzC" firstAttribute="width" secondItem="8bX-Dr-PrT" secondAttribute="width" id="1qb-m8-OcV"/>
+                        <constraint firstAttribute="bottom" secondItem="FZc-jf-zzC" secondAttribute="bottom" id="46H-bC-Y8P"/>
+                        <constraint firstItem="FZc-jf-zzC" firstAttribute="leading" secondItem="8bX-Dr-PrT" secondAttribute="leading" id="4aR-tf-HCY"/>
+                        <constraint firstItem="FZc-jf-zzC" firstAttribute="top" secondItem="8bX-Dr-PrT" secondAttribute="top" id="E3j-AY-S7m"/>
+                        <constraint firstAttribute="trailing" secondItem="FZc-jf-zzC" secondAttribute="trailing" id="FiS-t2-b9G"/>
+                        <constraint firstItem="FZc-jf-zzC" firstAttribute="height" secondItem="8bX-Dr-PrT" secondAttribute="height" id="bjn-nn-y9p"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="emptyDataSetDelegate" destination="-1" id="BQp-8R-WvO"/>
+                        <outlet property="emptyDataSetSource" destination="-1" id="vzV-lw-g0t"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8bX-Dr-PrT" firstAttribute="leading" secondItem="QEa-3y-Vcz" secondAttribute="leading" id="73i-mq-G3d"/>
+                <constraint firstAttribute="bottom" secondItem="8bX-Dr-PrT" secondAttribute="bottom" id="940-wF-1HS"/>
+                <constraint firstItem="8bX-Dr-PrT" firstAttribute="top" secondItem="QEa-3y-Vcz" secondAttribute="top" id="cKd-ll-uyJ"/>
+                <constraint firstAttribute="trailing" secondItem="8bX-Dr-PrT" secondAttribute="trailing" id="gCo-dD-MQb"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

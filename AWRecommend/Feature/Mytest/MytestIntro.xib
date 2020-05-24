@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MytestIntro">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="442"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_testChart" translatesAutoresizingMaskIntoConstraints="NO" id="pQa-kY-yXe">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="442"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="pQa-kY-yXe" secondAttribute="height" multiplier="71:112" id="we5-Xn-CFi"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pQa-kY-yXe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="C2g-Vy-Nak"/>
+                <constraint firstAttribute="trailing" secondItem="pQa-kY-yXe" secondAttribute="trailing" id="TmX-5g-lgI"/>
+                <constraint firstItem="pQa-kY-yXe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xar-23-fCl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_testChart" width="355" height="560"/>
+    </resources>
+</document>

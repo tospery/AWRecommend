@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExpireViewController">
+            <connections>
+                <outlet property="messageLabel" destination="g13-jA-hFl" id="8WJ-x6-AT1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="404错误\n请您尝试重新登录" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g13-jA-hFl" customClass="TTTAttributedLabel">
+                    <rect key="frame" x="20" y="33" width="200" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineSpacing">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eus-CR-u0t">
+                    <rect key="frame" x="0.0" y="123" width="240" height="37"/>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.83921568627450982" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="eus-CR-u0t" secondAttribute="height" multiplier="13:2" id="3mc-ky-cxo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="确认"/>
+                    <connections>
+                        <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="84t-MA-GaA"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcC-Mr-Cmm">
+                    <rect key="frame" x="216" y="2" width="22" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CcC-Mr-Cmm" secondAttribute="height" multiplier="21:22" id="Ugf-gT-P3c"/>
+                        <constraint firstAttribute="width" constant="22" id="ar6-OF-qlF"/>
+                    </constraints>
+                    <state key="normal" image="ic_pop_delete"/>
+                    <connections>
+                        <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="Q94-Hb-99f"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g13-jA-hFl" firstAttribute="top" secondItem="CcC-Mr-Cmm" secondAttribute="bottom" constant="8" id="5fg-7i-pNj"/>
+                <constraint firstItem="eus-CR-u0t" firstAttribute="top" secondItem="g13-jA-hFl" secondAttribute="bottom" constant="20" id="84D-dk-FKD"/>
+                <constraint firstAttribute="trailing" secondItem="eus-CR-u0t" secondAttribute="trailing" id="Kkc-jm-ggn"/>
+                <constraint firstItem="g13-jA-hFl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Lx0-Kq-wKE"/>
+                <constraint firstAttribute="trailing" secondItem="CcC-Mr-Cmm" secondAttribute="trailing" constant="2" id="bgd-uD-KcI"/>
+                <constraint firstAttribute="trailing" secondItem="g13-jA-hFl" secondAttribute="trailing" constant="20" id="cqj-gw-Q14"/>
+                <constraint firstAttribute="bottom" secondItem="eus-CR-u0t" secondAttribute="bottom" id="dng-KJ-rPd"/>
+                <constraint firstItem="eus-CR-u0t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fBu-ab-8Ya"/>
+                <constraint firstItem="CcC-Mr-Cmm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="2" id="sdy-df-wMf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_pop_delete" width="21" height="21"/>
+    </resources>
+</document>

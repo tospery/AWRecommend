@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterNameViewController">
+            <connections>
+                <outlet property="tableView" destination="HWt-8W-UjY" id="NPC-QK-1cA"/>
+                <outlet property="view" destination="NIV-Z2-SEB" id="85J-UQ-H0y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NIV-Z2-SEB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utt-Im-L69">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbv-Kd-80w" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="HWt-8W-UjY">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="feU-fd-aw9" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="uHe-QY-e5a" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="g4N-NM-93L"/>
+                                        <outlet property="delegate" destination="-1" id="62K-hZ-ROH"/>
+                                        <outlet property="emptyDataSetDelegate" destination="-1" id="SUy-ov-a82"/>
+                                        <outlet property="emptyDataSetSource" destination="-1" id="AT5-Z1-FDU"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="HWt-8W-UjY" secondAttribute="trailing" id="COC-EZ-7h4"/>
+                                <constraint firstItem="HWt-8W-UjY" firstAttribute="leading" secondItem="lbv-Kd-80w" secondAttribute="leading" id="dej-vX-xC4"/>
+                                <constraint firstItem="HWt-8W-UjY" firstAttribute="top" secondItem="lbv-Kd-80w" secondAttribute="top" id="psQ-cR-vT7"/>
+                                <constraint firstAttribute="bottom" secondItem="HWt-8W-UjY" secondAttribute="bottom" id="ryg-ce-Mp1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lbv-Kd-80w" secondAttribute="trailing" id="A3A-gr-7WX"/>
+                        <constraint firstItem="lbv-Kd-80w" firstAttribute="leading" secondItem="utt-Im-L69" secondAttribute="leading" id="Xi3-LC-ScB"/>
+                        <constraint firstItem="lbv-Kd-80w" firstAttribute="top" secondItem="utt-Im-L69" secondAttribute="top" id="cfp-EG-2Ng"/>
+                        <constraint firstItem="lbv-Kd-80w" firstAttribute="width" secondItem="utt-Im-L69" secondAttribute="width" id="g2I-yR-b1o"/>
+                        <constraint firstAttribute="bottom" secondItem="lbv-Kd-80w" secondAttribute="bottom" id="gNi-JM-9BR"/>
+                        <constraint firstItem="lbv-Kd-80w" firstAttribute="height" secondItem="utt-Im-L69" secondAttribute="height" id="uzM-xV-bA5"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="utt-Im-L69" firstAttribute="leading" secondItem="NIV-Z2-SEB" secondAttribute="leading" id="FWh-6h-KZK"/>
+                <constraint firstAttribute="trailing" secondItem="utt-Im-L69" secondAttribute="trailing" id="IHl-DU-hgX"/>
+                <constraint firstItem="utt-Im-L69" firstAttribute="top" secondItem="NIV-Z2-SEB" secondAttribute="top" id="JlQ-L9-KD8"/>
+                <constraint firstAttribute="bottom" secondItem="utt-Im-L69" secondAttribute="bottom" id="hP4-ET-zUC"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

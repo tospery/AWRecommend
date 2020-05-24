@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterNameViewController">
+            <connections>
+                <outlet property="classifyView" destination="5lA-DC-kgy" id="MaA-ts-VKk"/>
+                <outlet property="contentView" destination="99i-cG-0mc" id="R0U-st-Gs6"/>
+                <outlet property="heightConstraint" destination="0if-J2-In2" id="8Dw-YB-Way"/>
+                <outlet property="okButton" destination="Qrh-6D-BMR" id="MLt-Bz-vd0"/>
+                <outlet property="scrollView" destination="rqq-Wf-G90" id="hac-n1-DXr"/>
+                <outlet property="view" destination="qXj-On-juM" id="Jkg-Qp-mNY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qXj-On-juM">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqq-Wf-G90">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99i-cG-0mc" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5lA-DC-kgy" customClass="JXClassifyView">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="widthPercent">
+                                            <real key="value" value="0.32000000000000001"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="tTg-02-t2x"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlo-jW-kd6">
+                                    <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrh-6D-BMR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                            <color key="backgroundColor" red="0.32156862749999998" green="0.73725490199999999" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="确认"/>
+                                            <connections>
+                                                <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="wkm-VL-WNP"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" id="0if-J2-In2"/>
+                                        <constraint firstAttribute="bottom" secondItem="Qrh-6D-BMR" secondAttribute="bottom" id="1D8-Ku-wyL"/>
+                                        <constraint firstAttribute="trailing" secondItem="Qrh-6D-BMR" secondAttribute="trailing" id="Kre-Jf-dKs"/>
+                                        <constraint firstItem="Qrh-6D-BMR" firstAttribute="leading" secondItem="qlo-jW-kd6" secondAttribute="leading" id="QHE-gq-g2C"/>
+                                        <constraint firstItem="Qrh-6D-BMR" firstAttribute="top" secondItem="qlo-jW-kd6" secondAttribute="top" id="ns2-3g-0kZ"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="qlo-jW-kd6" secondAttribute="trailing" id="29A-xQ-FeZ"/>
+                                <constraint firstAttribute="bottom" secondItem="qlo-jW-kd6" secondAttribute="bottom" id="5zF-h7-OQl"/>
+                                <constraint firstItem="5lA-DC-kgy" firstAttribute="leading" secondItem="99i-cG-0mc" secondAttribute="leading" id="J2g-32-Hhn"/>
+                                <constraint firstAttribute="trailing" secondItem="5lA-DC-kgy" secondAttribute="trailing" id="LBR-wT-3V5"/>
+                                <constraint firstItem="5lA-DC-kgy" firstAttribute="top" secondItem="99i-cG-0mc" secondAttribute="top" id="Qel-PW-qsz"/>
+                                <constraint firstAttribute="bottom" secondItem="5lA-DC-kgy" secondAttribute="bottom" id="YDM-oa-K8W"/>
+                                <constraint firstItem="qlo-jW-kd6" firstAttribute="leading" secondItem="99i-cG-0mc" secondAttribute="leading" id="yqJ-Db-ZCa"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="99i-cG-0mc" secondAttribute="bottom" id="8dq-2Y-FpZ"/>
+                        <constraint firstItem="99i-cG-0mc" firstAttribute="leading" secondItem="rqq-Wf-G90" secondAttribute="leading" id="S6A-9u-3PS"/>
+                        <constraint firstAttribute="trailing" secondItem="99i-cG-0mc" secondAttribute="trailing" id="bKj-TV-BMG"/>
+                        <constraint firstItem="99i-cG-0mc" firstAttribute="width" secondItem="rqq-Wf-G90" secondAttribute="width" id="fSo-40-ACv"/>
+                        <constraint firstItem="99i-cG-0mc" firstAttribute="top" secondItem="rqq-Wf-G90" secondAttribute="top" id="gtl-XQ-g54"/>
+                        <constraint firstItem="99i-cG-0mc" firstAttribute="height" secondItem="rqq-Wf-G90" secondAttribute="height" id="l09-Qx-U79"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="4z9-S7-zUM"/>
+                        <outlet property="emptyDataSetDelegate" destination="-1" id="RWh-Em-0m4"/>
+                        <outlet property="emptyDataSetSource" destination="-1" id="LhQ-qC-1tV"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rqq-Wf-G90" secondAttribute="trailing" id="3nP-5W-LvZ"/>
+                <constraint firstItem="rqq-Wf-G90" firstAttribute="leading" secondItem="qXj-On-juM" secondAttribute="leading" id="DF4-JT-Y9h"/>
+                <constraint firstItem="rqq-Wf-G90" firstAttribute="top" secondItem="qXj-On-juM" secondAttribute="top" id="Z8N-2d-JkD"/>
+                <constraint firstAttribute="bottom" secondItem="rqq-Wf-G90" secondAttribute="bottom" id="b2T-pG-HFI"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

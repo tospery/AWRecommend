@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="SettingCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edW-Z1-bLZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="头像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtv-1e-TsS">
+                                <rect key="frame" x="20" y="11.5" width="29" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="Z3s-Io-SuC">
+                                <rect key="frame" x="290" y="11" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Z3s-Io-SuC" secondAttribute="height" multiplier="1:1" id="gMV-DI-Kat"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brE-NT-Eet">
+                                <rect key="frame" x="261.5" y="5.5" width="28.5" height="28.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="brE-NT-Eet" secondAttribute="height" multiplier="1:1" id="r8u-Mm-586"/>
+                                </constraints>
+                                <state key="normal" image="img_UserCenter_default"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9c-pn-8cP">
+                                <rect key="frame" x="290" y="20" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="brE-NT-Eet" firstAttribute="height" secondItem="edW-Z1-bLZ" secondAttribute="height" multiplier="44:60" id="26l-hk-jvo"/>
+                            <constraint firstItem="K9c-pn-8cP" firstAttribute="trailing" secondItem="brE-NT-Eet" secondAttribute="trailing" id="43J-Sa-HtR"/>
+                            <constraint firstItem="Z3s-Io-SuC" firstAttribute="leading" secondItem="brE-NT-Eet" secondAttribute="trailing" id="64d-Y0-wo1"/>
+                            <constraint firstItem="brE-NT-Eet" firstAttribute="centerY" secondItem="edW-Z1-bLZ" secondAttribute="centerY" id="72s-xa-myZ"/>
+                            <constraint firstItem="Z3s-Io-SuC" firstAttribute="centerY" secondItem="edW-Z1-bLZ" secondAttribute="centerY" id="AHo-xk-I92"/>
+                            <constraint firstItem="K9c-pn-8cP" firstAttribute="centerY" secondItem="edW-Z1-bLZ" secondAttribute="centerY" id="ENG-J3-JkF"/>
+                            <constraint firstItem="Z3s-Io-SuC" firstAttribute="width" secondItem="edW-Z1-bLZ" secondAttribute="width" multiplier="18:320" id="HPA-UZ-0Jy"/>
+                            <constraint firstItem="Jtv-1e-TsS" firstAttribute="centerY" secondItem="edW-Z1-bLZ" secondAttribute="centerY" id="aTs-M8-T7q"/>
+                            <constraint firstAttribute="trailing" secondItem="Z3s-Io-SuC" secondAttribute="trailing" constant="12" id="gOX-EG-57E"/>
+                            <constraint firstItem="Jtv-1e-TsS" firstAttribute="leading" secondItem="edW-Z1-bLZ" secondAttribute="leading" constant="20" id="nsi-nn-TPn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="edW-Z1-bLZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B8d-1P-cnc"/>
+                    <constraint firstAttribute="trailing" secondItem="edW-Z1-bLZ" secondAttribute="trailing" id="Byl-A5-a3a"/>
+                    <constraint firstItem="edW-Z1-bLZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IdG-JM-iNp"/>
+                    <constraint firstAttribute="bottom" secondItem="edW-Z1-bLZ" secondAttribute="bottom" id="Qxc-38-yQY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarButton" destination="brE-NT-Eet" id="37O-Zx-8DY"/>
+                <outlet property="myKeyLabel" destination="Jtv-1e-TsS" id="9bz-3h-Cx1"/>
+                <outlet property="myValueLabel" destination="K9c-pn-8cP" id="Otx-RJ-TvQ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_arrow_right" width="26" height="26"/>
+        <image name="img_UserCenter_default" width="65" height="65"/>
+    </resources>
+</document>

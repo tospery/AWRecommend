@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchViewController">
+            <connections>
+                <outlet property="bgView" destination="D64-b9-jxJ" id="Yow-rY-kv2"/>
+                <outlet property="matchView" destination="FTr-Tq-Dzp" id="07S-cR-bU8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D64-b9-jxJ">
+                    <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_matching" translatesAutoresizingMaskIntoConstraints="NO" id="85f-PQ-6Es">
+                            <rect key="frame" x="22" y="17" width="176" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="85f-PQ-6Es" secondAttribute="height" multiplier="43:21" id="fjV-1N-u8D"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTr-Tq-Dzp">
+                            <rect key="frame" x="79" y="38" width="44" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="FTr-Tq-Dzp" secondAttribute="height" id="RHP-6H-3bp"/>
+                                <constraint firstAttribute="width" constant="44" id="X2S-tQ-bJ6"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="药品别名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCd-h6-Zwj">
+                            <rect key="frame" x="32" y="93" width="37" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="药品稳定性" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qhl-ZL-uYH">
+                            <rect key="frame" x="151" y="54" width="46" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="药品安全性" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCL-wU-QuI">
+                            <rect key="frame" x="133" y="18" width="46" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="适应症" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcw-iX-uOT">
+                            <rect key="frame" x="41" y="18" width="28" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="药品名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypA-bx-Xpf">
+                            <rect key="frame" x="26" y="54" width="28" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="药品成分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r35-QC-If7">
+                            <rect key="frame" x="136" y="93" width="37" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.83921568629999999" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="BCd-h6-Zwj" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="46:100" id="05Y-QS-fpu"/>
+                        <constraint firstItem="85f-PQ-6Es" firstAttribute="centerY" secondItem="D64-b9-jxJ" secondAttribute="centerY" id="2rb-UU-h9W"/>
+                        <constraint firstItem="FTr-Tq-Dzp" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="92:100" id="2uC-na-6fM"/>
+                        <constraint firstItem="85f-PQ-6Es" firstAttribute="width" secondItem="D64-b9-jxJ" secondAttribute="width" multiplier="160:200" id="7eg-Tp-pds"/>
+                        <constraint firstItem="Qhl-ZL-uYH" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="158:100" id="Buh-aW-WPm"/>
+                        <constraint firstItem="FTr-Tq-Dzp" firstAttribute="centerY" secondItem="D64-b9-jxJ" secondAttribute="centerY" id="C7S-0d-ENz"/>
+                        <constraint firstItem="r35-QC-If7" firstAttribute="centerY" secondItem="BCd-h6-Zwj" secondAttribute="centerY" id="JfW-nF-8Wq"/>
+                        <constraint firstItem="Xcw-iX-uOT" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="50:100" id="MW9-TX-esx"/>
+                        <constraint firstItem="ypA-bx-Xpf" firstAttribute="centerY" secondItem="D64-b9-jxJ" secondAttribute="centerY" id="Og7-l2-WZM"/>
+                        <constraint firstItem="Xcw-iX-uOT" firstAttribute="centerY" secondItem="D64-b9-jxJ" secondAttribute="centerY" multiplier="38:100" id="Tyq-40-eZL"/>
+                        <constraint firstItem="Qhl-ZL-uYH" firstAttribute="centerY" secondItem="ypA-bx-Xpf" secondAttribute="centerY" id="VTK-DB-yaD"/>
+                        <constraint firstItem="ypA-bx-Xpf" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="36:100" id="Wu4-cg-QRC"/>
+                        <constraint firstItem="UCL-wU-QuI" firstAttribute="centerY" secondItem="Xcw-iX-uOT" secondAttribute="centerY" id="ec1-ye-KQp"/>
+                        <constraint firstItem="BCd-h6-Zwj" firstAttribute="centerY" secondItem="D64-b9-jxJ" secondAttribute="centerY" multiplier="164:100" id="i7I-Oa-xyJ"/>
+                        <constraint firstItem="r35-QC-If7" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="140:100" id="iWX-kD-2lm"/>
+                        <constraint firstItem="85f-PQ-6Es" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" id="jyx-oc-C5V"/>
+                        <constraint firstItem="UCL-wU-QuI" firstAttribute="centerX" secondItem="D64-b9-jxJ" secondAttribute="centerX" multiplier="142:100" id="ysy-5H-SJZ"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpW-YR-fgj">
+                    <rect key="frame" x="207" y="-10" width="21" height="22"/>
+                    <state key="normal" image="ic_pop_delete"/>
+                    <connections>
+                        <action selector="closeButtonPressed:" destination="-1" eventType="touchUpInside" id="Ljo-Og-JVh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="D64-b9-jxJ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="6Br-uF-olJ"/>
+                <constraint firstAttribute="trailing" secondItem="ZpW-YR-fgj" secondAttribute="trailing" constant="-8" id="Ihu-oG-KhD"/>
+                <constraint firstItem="ZpW-YR-fgj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-10" id="UfK-hF-je6"/>
+                <constraint firstItem="D64-b9-jxJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UqQ-zI-eb9"/>
+                <constraint firstItem="D64-b9-jxJ" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="boe-Pl-lkX"/>
+                <constraint firstItem="D64-b9-jxJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="x4k-V8-P8G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_pop_delete" width="21" height="21"/>
+        <image name="img_matching" width="215" height="105"/>
+    </resources>
+</document>

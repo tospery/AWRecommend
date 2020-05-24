@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController">
+            <connections>
+                <outlet property="contentView" destination="zTd-AR-bZ9" id="l2l-XN-OB1"/>
+                <outlet property="mainScrollView" destination="t13-dP-Mfo" id="jn8-0e-vjp"/>
+                <outlet property="scrollView" destination="Qkx-ZR-mqp" id="58u-nI-IRa"/>
+                <outlet property="segmentedControl" destination="D2b-yI-ak8" id="9eb-bT-dTQ"/>
+                <outlet property="view" destination="W6d-Aa-id1" id="thB-Um-IiM"/>
+                <outletCollection property="tableViews" destination="VBK-WP-0Wh" id="Dgr-xb-C7t"/>
+                <outletCollection property="tableViews" destination="SgB-L3-Jja" id="giC-U2-wLe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="W6d-Aa-id1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qkx-ZR-mqp">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zTd-AR-bZ9" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2b-yI-ak8" customClass="HMSegmentedControl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="D2b-yI-ak8" secondAttribute="height" multiplier="8:1" id="fnt-1T-xcS"/>
+                                    </constraints>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KaU-yH-0de">
+                                    <rect key="frame" x="0.0" y="40" width="320" height="1"/>
+                                    <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="Gf6-mK-6YB"/>
+                                    </constraints>
+                                </imageView>
+                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t13-dP-Mfo">
+                                    <rect key="frame" x="0.0" y="41" width="320" height="463"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ljk-oe-7mV" userLabel="contentView">
+                                            <rect key="frame" x="0.0" y="0.0" width="640" height="463"/>
+                                            <subviews>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VBK-WP-0Wh">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="463"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-1" id="7GY-1J-Ezo"/>
+                                                        <outlet property="delegate" destination="-1" id="zGc-MP-LIf"/>
+                                                    </connections>
+                                                </tableView>
+                                                <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SgB-L3-Jja">
+                                                    <rect key="frame" x="320" y="0.0" width="320" height="463"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-1" id="6Xi-H1-w3o"/>
+                                                        <outlet property="delegate" destination="-1" id="8OC-Ka-PuY"/>
+                                                    </connections>
+                                                </tableView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="SgB-L3-Jja" firstAttribute="leading" secondItem="VBK-WP-0Wh" secondAttribute="trailing" id="KD4-1R-Owe"/>
+                                                <constraint firstAttribute="bottom" secondItem="SgB-L3-Jja" secondAttribute="bottom" id="WAO-cV-Ymy"/>
+                                                <constraint firstItem="SgB-L3-Jja" firstAttribute="top" secondItem="Ljk-oe-7mV" secondAttribute="top" id="by2-4p-mzP"/>
+                                                <constraint firstItem="VBK-WP-0Wh" firstAttribute="top" secondItem="Ljk-oe-7mV" secondAttribute="top" id="jqe-XD-rvz"/>
+                                                <constraint firstAttribute="bottom" secondItem="VBK-WP-0Wh" secondAttribute="bottom" id="wD6-uM-dGN"/>
+                                                <constraint firstItem="VBK-WP-0Wh" firstAttribute="leading" secondItem="Ljk-oe-7mV" secondAttribute="leading" id="wmx-m8-LWm"/>
+                                                <constraint firstAttribute="trailing" secondItem="SgB-L3-Jja" secondAttribute="trailing" id="zV8-bv-JYN"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ljk-oe-7mV" firstAttribute="height" secondItem="t13-dP-Mfo" secondAttribute="height" id="2Oy-Vh-3KG"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ljk-oe-7mV" secondAttribute="bottom" id="7R5-J3-xLx"/>
+                                        <constraint firstItem="Ljk-oe-7mV" firstAttribute="top" secondItem="t13-dP-Mfo" secondAttribute="top" id="8ox-II-ELd"/>
+                                        <constraint firstItem="Ljk-oe-7mV" firstAttribute="width" secondItem="t13-dP-Mfo" secondAttribute="width" multiplier="2" id="Afo-lJ-G8T"/>
+                                        <constraint firstItem="VBK-WP-0Wh" firstAttribute="width" secondItem="t13-dP-Mfo" secondAttribute="width" id="cno-du-Rnz"/>
+                                        <constraint firstItem="Ljk-oe-7mV" firstAttribute="leading" secondItem="t13-dP-Mfo" secondAttribute="leading" id="dJn-0q-gAC"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ljk-oe-7mV" secondAttribute="trailing" id="gOw-06-pt9"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="OHp-2Z-aWg"/>
+                                    </connections>
+                                </scrollView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="D2b-yI-ak8" firstAttribute="leading" secondItem="zTd-AR-bZ9" secondAttribute="leading" id="0Nf-6I-m5u"/>
+                                <constraint firstItem="KaU-yH-0de" firstAttribute="top" secondItem="D2b-yI-ak8" secondAttribute="bottom" id="2oK-yi-eeb"/>
+                                <constraint firstItem="t13-dP-Mfo" firstAttribute="top" secondItem="D2b-yI-ak8" secondAttribute="bottom" constant="1" id="9T6-MP-biD"/>
+                                <constraint firstItem="D2b-yI-ak8" firstAttribute="top" secondItem="zTd-AR-bZ9" secondAttribute="top" id="W9b-AK-0Yo"/>
+                                <constraint firstAttribute="trailing" secondItem="KaU-yH-0de" secondAttribute="trailing" id="dzc-8i-kdZ"/>
+                                <constraint firstAttribute="bottom" secondItem="t13-dP-Mfo" secondAttribute="bottom" id="eUI-2e-1Pv"/>
+                                <constraint firstAttribute="trailing" secondItem="t13-dP-Mfo" secondAttribute="trailing" id="t4m-rG-Um6"/>
+                                <constraint firstItem="t13-dP-Mfo" firstAttribute="leading" secondItem="zTd-AR-bZ9" secondAttribute="leading" id="tgy-On-xwy"/>
+                                <constraint firstItem="KaU-yH-0de" firstAttribute="leading" secondItem="zTd-AR-bZ9" secondAttribute="leading" id="vmj-pq-cTa"/>
+                                <constraint firstAttribute="trailing" secondItem="D2b-yI-ak8" secondAttribute="trailing" id="xqO-0w-nQj"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zTd-AR-bZ9" secondAttribute="trailing" id="83I-C8-zS7"/>
+                        <constraint firstItem="zTd-AR-bZ9" firstAttribute="top" secondItem="Qkx-ZR-mqp" secondAttribute="top" id="Atj-gm-c2w"/>
+                        <constraint firstAttribute="bottom" secondItem="zTd-AR-bZ9" secondAttribute="bottom" id="CEG-Sj-9Zb"/>
+                        <constraint firstItem="zTd-AR-bZ9" firstAttribute="width" secondItem="Qkx-ZR-mqp" secondAttribute="width" id="c8n-sm-Q1j"/>
+                        <constraint firstItem="zTd-AR-bZ9" firstAttribute="leading" secondItem="Qkx-ZR-mqp" secondAttribute="leading" id="hX9-1L-xpn"/>
+                        <constraint firstItem="zTd-AR-bZ9" firstAttribute="height" secondItem="Qkx-ZR-mqp" secondAttribute="height" id="xU4-cP-70D"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qkx-ZR-mqp" secondAttribute="bottom" id="HiO-so-qL0"/>
+                <constraint firstItem="Qkx-ZR-mqp" firstAttribute="leading" secondItem="W6d-Aa-id1" secondAttribute="leading" id="JSr-1v-FHV"/>
+                <constraint firstItem="Qkx-ZR-mqp" firstAttribute="top" secondItem="W6d-Aa-id1" secondAttribute="top" id="VPT-BC-5fr"/>
+                <constraint firstAttribute="trailing" secondItem="Qkx-ZR-mqp" secondAttribute="trailing" id="eWx-s4-QMp"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

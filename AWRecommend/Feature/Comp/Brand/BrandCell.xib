@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="BrandCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XcI-AC-NaU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="grb-8H-I5h">
+                                <rect key="frame" x="8" y="68.5" width="304" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_default" translatesAutoresizingMaskIntoConstraints="NO" id="HTr-fm-6BS">
+                                <rect key="frame" x="8" y="8" width="53.5" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HTr-fm-6BS" secondAttribute="height" multiplier="1:1" id="cOt-pp-Rwl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="【金嗓子】龙杜壮骨颗粒【金嗓子】龙杜壮骨颗粒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpF-GN-qt0">
+                                <rect key="frame" x="69.5" y="9.5" width="242.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广西金嗓子药业股份有限公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="413-ja-gEX">
+                                <rect key="frame" x="69.5" y="29.5" width="133" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVq-2O-2yy">
+                                <rect key="frame" x="69.5" y="44.5" width="96" height="15"/>
+                                <color key="backgroundColor" red="0.8784313725490196" green="0.96862745098039216" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title=" DDDP:2.35元/天" image="ic_caution">
+                                    <color key="titleColor" red="0.32156862745098036" green="0.73725490196078436" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dddpButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FJ8-qh-cIE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥8.00 起" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEZ-nE-PH1">
+                                <rect key="frame" x="266.5" y="46" width="45.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="413-ja-gEX" firstAttribute="centerY" secondItem="XcI-AC-NaU" secondAttribute="centerY" id="4RQ-dQ-SnB"/>
+                            <constraint firstItem="BpF-GN-qt0" firstAttribute="leading" secondItem="HTr-fm-6BS" secondAttribute="trailing" constant="8" id="71B-vc-iMY"/>
+                            <constraint firstItem="iVq-2O-2yy" firstAttribute="leading" secondItem="BpF-GN-qt0" secondAttribute="leading" id="90G-2x-8WO"/>
+                            <constraint firstAttribute="trailing" secondItem="BpF-GN-qt0" secondAttribute="trailing" priority="999" constant="8" id="CZs-It-cO7"/>
+                            <constraint firstItem="BpF-GN-qt0" firstAttribute="centerY" secondItem="XcI-AC-NaU" secondAttribute="centerY" multiplier="50:100" id="FCA-kt-hou"/>
+                            <constraint firstItem="HTr-fm-6BS" firstAttribute="centerY" secondItem="XcI-AC-NaU" secondAttribute="centerY" id="IRF-Ai-pUH"/>
+                            <constraint firstAttribute="trailing" secondItem="CEZ-nE-PH1" secondAttribute="trailing" constant="8" id="KPj-vo-Af8"/>
+                            <constraint firstItem="413-ja-gEX" firstAttribute="leading" secondItem="BpF-GN-qt0" secondAttribute="leading" id="ajK-Xn-Obo"/>
+                            <constraint firstAttribute="trailing" secondItem="grb-8H-I5h" secondAttribute="trailing" constant="8" id="jxU-tq-I3G"/>
+                            <constraint firstItem="CEZ-nE-PH1" firstAttribute="centerY" secondItem="iVq-2O-2yy" secondAttribute="centerY" id="oLg-uw-v7H"/>
+                            <constraint firstAttribute="bottom" secondItem="grb-8H-I5h" secondAttribute="bottom" id="ppQ-mB-h3c"/>
+                            <constraint firstItem="HTr-fm-6BS" firstAttribute="height" secondItem="XcI-AC-NaU" secondAttribute="height" multiplier="54:70" id="tSN-6f-hIG"/>
+                            <constraint firstItem="grb-8H-I5h" firstAttribute="leading" secondItem="XcI-AC-NaU" secondAttribute="leading" constant="8" id="vhB-EX-2i6"/>
+                            <constraint firstItem="iVq-2O-2yy" firstAttribute="centerY" secondItem="XcI-AC-NaU" secondAttribute="centerY" multiplier="150:100" id="yhs-pb-dkk"/>
+                            <constraint firstItem="HTr-fm-6BS" firstAttribute="leading" secondItem="XcI-AC-NaU" secondAttribute="leading" constant="8" id="yx6-vb-45Y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XcI-AC-NaU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ilt-Z2-1ZH"/>
+                    <constraint firstItem="XcI-AC-NaU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MgY-a9-eAo"/>
+                    <constraint firstAttribute="bottom" secondItem="XcI-AC-NaU" secondAttribute="bottom" id="wFG-Yf-Wyk"/>
+                    <constraint firstAttribute="trailing" secondItem="XcI-AC-NaU" secondAttribute="trailing" id="ySj-aF-0ct"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="XcI-AC-NaU" id="1IC-Vb-mxO"/>
+                <outlet property="dddpButton" destination="iVq-2O-2yy" id="Vlz-8L-k6i"/>
+                <outlet property="factoryLabel" destination="413-ja-gEX" id="CwY-Yz-VIZ"/>
+                <outlet property="iconImageView" destination="HTr-fm-6BS" id="l3W-PK-gMQ"/>
+                <outlet property="nameLabel" destination="BpF-GN-qt0" id="sG4-J2-QGP"/>
+                <outlet property="priceLabel" destination="CEZ-nE-PH1" id="5SE-GL-s25"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_caution" width="15" height="15"/>
+        <image name="img_default" width="100" height="100"/>
+        <image name="line" width="1" height="1"/>
+    </resources>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController">
+            <connections>
+                <outlet property="contentView" destination="Rvv-Hh-jMB" id="C6G-7N-c64"/>
+                <outlet property="tableView" destination="VrZ-lU-Usi" id="xeQ-PH-ODy"/>
+                <outlet property="view" destination="awU-0C-gVj" id="tsX-tQ-sFs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="awU-0C-gVj">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VG6-uw-Ucu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rvv-Hh-jMB" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="VrZ-lU-Usi">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="nJd-KV-dvX" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="EsD-Mj-czg" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="SUh-89-0yf"/>
+                                        <outlet property="delegate" destination="-1" id="cNm-o3-d17"/>
+                                        <outlet property="emptyDataSetDelegate" destination="-1" id="rzL-ao-QQQ"/>
+                                        <outlet property="emptyDataSetSource" destination="-1" id="2cW-rX-FxZ"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="VrZ-lU-Usi" firstAttribute="leading" secondItem="Rvv-Hh-jMB" secondAttribute="leading" id="1Ac-jj-Uh5"/>
+                                <constraint firstAttribute="trailing" secondItem="VrZ-lU-Usi" secondAttribute="trailing" id="9vf-bY-ZLj"/>
+                                <constraint firstAttribute="bottom" secondItem="VrZ-lU-Usi" secondAttribute="bottom" id="cm7-2t-ZbW"/>
+                                <constraint firstItem="VrZ-lU-Usi" firstAttribute="top" secondItem="Rvv-Hh-jMB" secondAttribute="top" id="xDY-o8-kbI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Rvv-Hh-jMB" secondAttribute="bottom" id="4GN-sm-fy0"/>
+                        <constraint firstItem="Rvv-Hh-jMB" firstAttribute="width" secondItem="VG6-uw-Ucu" secondAttribute="width" id="KQD-gu-tcz"/>
+                        <constraint firstItem="Rvv-Hh-jMB" firstAttribute="leading" secondItem="VG6-uw-Ucu" secondAttribute="leading" id="PCL-qB-xre"/>
+                        <constraint firstItem="Rvv-Hh-jMB" firstAttribute="height" secondItem="VG6-uw-Ucu" secondAttribute="height" id="RId-JG-xSs"/>
+                        <constraint firstAttribute="trailing" secondItem="Rvv-Hh-jMB" secondAttribute="trailing" id="g65-r7-CmK"/>
+                        <constraint firstItem="Rvv-Hh-jMB" firstAttribute="top" secondItem="VG6-uw-Ucu" secondAttribute="top" id="yu1-Vc-8IO"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="VG6-uw-Ucu" secondAttribute="bottom" id="3dn-Kq-dUv"/>
+                <constraint firstAttribute="trailing" secondItem="VG6-uw-Ucu" secondAttribute="trailing" id="Cy7-X3-Wri"/>
+                <constraint firstItem="VG6-uw-Ucu" firstAttribute="top" secondItem="awU-0C-gVj" secondAttribute="top" id="gSt-xC-QoA"/>
+                <constraint firstItem="VG6-uw-Ucu" firstAttribute="leading" secondItem="awU-0C-gVj" secondAttribute="leading" id="xTA-91-QpC"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

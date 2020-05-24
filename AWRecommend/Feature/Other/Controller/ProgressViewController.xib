@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProgressViewController">
+            <connections>
+                <outlet property="bgImageView" destination="mwU-Nb-0gd" id="Fpi-mO-XT6"/>
+                <outlet property="bottomView" destination="wiA-dd-UBt" id="c7f-ff-BVH"/>
+                <outlet property="firstImageView" destination="9c4-eH-qxx" id="8Rh-cP-cMi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wiA-dd-UBt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_loding_drug" translatesAutoresizingMaskIntoConstraints="NO" id="mwU-Nb-0gd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="mwU-Nb-0gd" firstAttribute="leading" secondItem="wiA-dd-UBt" secondAttribute="leading" id="H5p-iD-eh8"/>
+                        <constraint firstItem="mwU-Nb-0gd" firstAttribute="top" secondItem="wiA-dd-UBt" secondAttribute="top" id="Ils-b0-hXO"/>
+                        <constraint firstAttribute="trailing" secondItem="mwU-Nb-0gd" secondAttribute="trailing" id="Xiw-ts-j6f"/>
+                        <constraint firstAttribute="bottom" secondItem="mwU-Nb-0gd" secondAttribute="bottom" id="f0x-eg-mdp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="718-RY-9YX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_loading_font1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="9c4-eH-qxx" customClass="FLAnimatedImageView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在搜索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IU0-ZJ-wtl">
+                            <rect key="frame" x="127.5" y="34" width="65.5" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgl-BS-NLj">
+                            <rect key="frame" x="14" y="31.5" width="26" height="26"/>
+                            <state key="normal" image="ic_arrow_return"/>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="mgh-sU-rko"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="9c4-eH-qxx" secondAttribute="bottom" id="Ley-np-LIu"/>
+                        <constraint firstItem="sgl-BS-NLj" firstAttribute="leading" secondItem="718-RY-9YX" secondAttribute="leading" constant="14" id="P94-Bp-KPY"/>
+                        <constraint firstAttribute="trailing" secondItem="9c4-eH-qxx" secondAttribute="trailing" id="Tjd-sS-Tmg"/>
+                        <constraint firstItem="sgl-BS-NLj" firstAttribute="centerY" secondItem="IU0-ZJ-wtl" secondAttribute="centerY" id="VrD-W9-9we"/>
+                        <constraint firstItem="IU0-ZJ-wtl" firstAttribute="top" secondItem="718-RY-9YX" secondAttribute="top" constant="34" id="nmX-ec-rX6"/>
+                        <constraint firstItem="9c4-eH-qxx" firstAttribute="top" secondItem="718-RY-9YX" secondAttribute="top" id="pwb-ev-ZY5"/>
+                        <constraint firstItem="9c4-eH-qxx" firstAttribute="leading" secondItem="718-RY-9YX" secondAttribute="leading" id="s2E-u6-zv8"/>
+                        <constraint firstItem="IU0-ZJ-wtl" firstAttribute="centerX" secondItem="718-RY-9YX" secondAttribute="centerX" id="wXy-IC-Esv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="718-RY-9YX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9DC-5K-TSL"/>
+                <constraint firstAttribute="trailing" secondItem="718-RY-9YX" secondAttribute="trailing" id="EQ4-KQ-ukb"/>
+                <constraint firstItem="718-RY-9YX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P5V-rM-hW8"/>
+                <constraint firstAttribute="trailing" secondItem="wiA-dd-UBt" secondAttribute="trailing" id="Wgf-XX-KUd"/>
+                <constraint firstAttribute="bottom" secondItem="wiA-dd-UBt" secondAttribute="bottom" id="ibd-Bg-UUT"/>
+                <constraint firstItem="wiA-dd-UBt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="o2j-o4-v5B"/>
+                <constraint firstItem="wiA-dd-UBt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oKX-Ff-tQo"/>
+                <constraint firstAttribute="bottom" secondItem="718-RY-9YX" secondAttribute="bottom" id="p5E-vR-nKk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_loding_drug" width="375" height="665"/>
+        <image name="ic_arrow_return" width="26" height="26"/>
+        <image name="img_loading_font1.gif" width="1242" height="2205"/>
+    </resources>
+</document>

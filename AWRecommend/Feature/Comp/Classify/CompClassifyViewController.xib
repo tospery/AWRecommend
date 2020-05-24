@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompClassifyViewController">
+            <connections>
+                <outlet property="firstTableView" destination="ibx-xM-yzX" id="imf-O8-Mif"/>
+                <outlet property="heightConstraint" destination="4CN-Wc-KW4" id="xc9-wa-jxb"/>
+                <outlet property="scrollView" destination="dCY-Th-nhP" id="sna-e7-Dff"/>
+                <outlet property="secondTableView" destination="8Al-Tx-UBt" id="9lq-9y-Mcx"/>
+                <outlet property="selectButton" destination="XVW-gF-yDE" id="ehO-bn-trP"/>
+                <outlet property="view" destination="6gW-Ua-qAK" id="OJj-kq-d8k"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6gW-Ua-qAK">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCY-Th-nhP">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWt-6n-Evk" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ibx-xM-yzX">
+                                    <rect key="frame" x="0.0" y="0.0" width="102.5" height="568"/>
+                                    <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="SIJ-0e-JVp"/>
+                                        <outlet property="delegate" destination="-1" id="NnJ-Y8-Woy"/>
+                                    </connections>
+                                </tableView>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Al-Tx-UBt">
+                                    <rect key="frame" x="102.5" y="0.0" width="217.5" height="568"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="s5w-nu-ocP"/>
+                                        <outlet property="delegate" destination="-1" id="Mps-7c-fXj"/>
+                                    </connections>
+                                </tableView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-gN-ppn">
+                                    <rect key="frame" x="0.0" y="568" width="320" height="0.0"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVW-gF-yDE">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                                            <color key="backgroundColor" red="0.32156862749999998" green="0.73725490199999999" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="确认"/>
+                                            <connections>
+                                                <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="TKd-Cv-VCU"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="XVW-gF-yDE" firstAttribute="leading" secondItem="1K4-gN-ppn" secondAttribute="leading" id="0hL-ck-Ggm"/>
+                                        <constraint firstAttribute="height" id="4CN-Wc-KW4"/>
+                                        <constraint firstAttribute="trailing" secondItem="XVW-gF-yDE" secondAttribute="trailing" id="NfS-65-j6P"/>
+                                        <constraint firstAttribute="bottom" secondItem="XVW-gF-yDE" secondAttribute="bottom" id="beX-5R-rNr"/>
+                                        <constraint firstItem="XVW-gF-yDE" firstAttribute="top" secondItem="1K4-gN-ppn" secondAttribute="top" id="fSw-sY-PwI"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="8Al-Tx-UBt" firstAttribute="top" secondItem="KWt-6n-Evk" secondAttribute="top" id="3gs-zR-qex"/>
+                                <constraint firstItem="ibx-xM-yzX" firstAttribute="leading" secondItem="KWt-6n-Evk" secondAttribute="leading" id="474-83-sJk"/>
+                                <constraint firstItem="8Al-Tx-UBt" firstAttribute="leading" secondItem="ibx-xM-yzX" secondAttribute="trailing" id="4co-5l-Wja"/>
+                                <constraint firstItem="XVW-gF-yDE" firstAttribute="top" secondItem="ibx-xM-yzX" secondAttribute="bottom" id="6d9-wP-Gdo"/>
+                                <constraint firstItem="XVW-gF-yDE" firstAttribute="top" secondItem="8Al-Tx-UBt" secondAttribute="bottom" id="KfW-UZ-xw6"/>
+                                <constraint firstAttribute="bottom" secondItem="1K4-gN-ppn" secondAttribute="bottom" id="fIB-cF-8bz"/>
+                                <constraint firstItem="ibx-xM-yzX" firstAttribute="top" secondItem="KWt-6n-Evk" secondAttribute="top" id="kQ8-VV-k2I"/>
+                                <constraint firstItem="1K4-gN-ppn" firstAttribute="leading" secondItem="KWt-6n-Evk" secondAttribute="leading" id="n0M-hZ-RA2"/>
+                                <constraint firstAttribute="trailing" secondItem="8Al-Tx-UBt" secondAttribute="trailing" id="s9P-eI-KOR"/>
+                                <constraint firstAttribute="trailing" secondItem="1K4-gN-ppn" secondAttribute="trailing" id="uw0-in-CPT"/>
+                                <constraint firstItem="ibx-xM-yzX" firstAttribute="width" secondItem="KWt-6n-Evk" secondAttribute="width" multiplier="32:100" id="vKV-Kx-TF3"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="KWt-6n-Evk" firstAttribute="height" secondItem="dCY-Th-nhP" secondAttribute="height" id="ZLo-xh-ihk"/>
+                        <constraint firstItem="KWt-6n-Evk" firstAttribute="top" secondItem="dCY-Th-nhP" secondAttribute="top" id="b1U-ja-nW8"/>
+                        <constraint firstItem="KWt-6n-Evk" firstAttribute="width" secondItem="dCY-Th-nhP" secondAttribute="width" id="gn8-Rp-Sa7"/>
+                        <constraint firstAttribute="trailing" secondItem="KWt-6n-Evk" secondAttribute="trailing" id="kpw-UM-xcR"/>
+                        <constraint firstItem="KWt-6n-Evk" firstAttribute="leading" secondItem="dCY-Th-nhP" secondAttribute="leading" id="kyw-gs-cXj"/>
+                        <constraint firstAttribute="bottom" secondItem="KWt-6n-Evk" secondAttribute="bottom" id="lXc-Jm-XJx"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="emptyDataSetDelegate" destination="-1" id="uPQ-KT-3Yc"/>
+                        <outlet property="emptyDataSetSource" destination="-1" id="GSu-h6-Cll"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dCY-Th-nhP" secondAttribute="trailing" id="RhH-K5-3Nf"/>
+                <constraint firstAttribute="bottom" secondItem="dCY-Th-nhP" secondAttribute="bottom" id="Tp2-lB-w6T"/>
+                <constraint firstItem="dCY-Th-nhP" firstAttribute="leading" secondItem="6gW-Ua-qAK" secondAttribute="leading" id="dh8-Lg-kge"/>
+                <constraint firstItem="dCY-Th-nhP" firstAttribute="top" secondItem="6gW-Ua-qAK" secondAttribute="top" id="lTH-Hv-fsm"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

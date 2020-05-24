@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BrandDetailViewController">
+            <connections>
+                <outlet property="contentView" destination="nBM-Rx-12g" id="bQd-jn-Mx6"/>
+                <outlet property="tableView" destination="gc3-Gm-Zzm" id="Vlj-ke-hxr"/>
+                <outlet property="view" destination="tzA-qh-xO8" id="1TB-Qd-ZaR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tzA-qh-xO8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FX-sw-XFl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-Rx-12g" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="gc3-Gm-Zzm">
+                                    <rect key="frame" x="10" y="8" width="355" height="651"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="FCD-Lx-IaI" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="HfH-tl-nrz" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="651" width="355" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="8gT-0J-hhU"/>
+                                        <outlet property="delegate" destination="-1" id="mFa-2a-ofp"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="gc3-Gm-Zzm" firstAttribute="leading" secondItem="nBM-Rx-12g" secondAttribute="leading" constant="10" id="K1h-Da-uv4"/>
+                                <constraint firstAttribute="bottom" secondItem="gc3-Gm-Zzm" secondAttribute="bottom" constant="8" id="RBr-XW-RSH"/>
+                                <constraint firstItem="gc3-Gm-Zzm" firstAttribute="top" secondItem="nBM-Rx-12g" secondAttribute="top" constant="8" id="YAo-ke-iTu"/>
+                                <constraint firstAttribute="trailing" secondItem="gc3-Gm-Zzm" secondAttribute="trailing" constant="10" id="ufd-v5-BR2"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nBM-Rx-12g" firstAttribute="top" secondItem="6FX-sw-XFl" secondAttribute="top" id="5d7-iZ-HoI"/>
+                        <constraint firstAttribute="trailing" secondItem="nBM-Rx-12g" secondAttribute="trailing" id="Jaw-GR-kY2"/>
+                        <constraint firstItem="nBM-Rx-12g" firstAttribute="leading" secondItem="6FX-sw-XFl" secondAttribute="leading" id="RGP-Uj-0EJ"/>
+                        <constraint firstItem="nBM-Rx-12g" firstAttribute="width" secondItem="6FX-sw-XFl" secondAttribute="width" id="bZz-Xv-t04"/>
+                        <constraint firstAttribute="bottom" secondItem="nBM-Rx-12g" secondAttribute="bottom" id="jXQ-VR-Hog"/>
+                        <constraint firstItem="nBM-Rx-12g" firstAttribute="height" secondItem="6FX-sw-XFl" secondAttribute="height" id="n8v-m0-cxv"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6FX-sw-XFl" firstAttribute="leading" secondItem="tzA-qh-xO8" secondAttribute="leading" id="QGu-3w-WBB"/>
+                <constraint firstItem="6FX-sw-XFl" firstAttribute="top" secondItem="tzA-qh-xO8" secondAttribute="top" id="Twg-cz-erU"/>
+                <constraint firstAttribute="trailing" secondItem="6FX-sw-XFl" secondAttribute="trailing" id="Uvl-al-iV6"/>
+                <constraint firstAttribute="bottom" secondItem="6FX-sw-XFl" secondAttribute="bottom" id="rrr-pC-Q0S"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

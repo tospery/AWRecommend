@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MytestRecordView">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIa-xs-2gz">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RgB-kz-tOK">
+                            <rect key="frame" x="0.0" y="11" width="6" height="18"/>
+                            <color key="backgroundColor" red="0.23921568630000001" green="0.50588235290000005" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="yvj-xa-aNk"/>
+                                <constraint firstAttribute="width" constant="6" id="zfY-E2-1FS"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="历史测试记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w68-9b-KEY">
+                            <rect key="frame" x="14" y="12" width="80" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.23921568630000001" green="0.50588235290000005" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1xF-yU-THf"/>
+                        <constraint firstItem="w68-9b-KEY" firstAttribute="leading" secondItem="RgB-kz-tOK" secondAttribute="trailing" constant="8" id="43J-eD-1Ed"/>
+                        <constraint firstItem="RgB-kz-tOK" firstAttribute="leading" secondItem="fIa-xs-2gz" secondAttribute="leading" id="H1O-oQ-uSB"/>
+                        <constraint firstItem="w68-9b-KEY" firstAttribute="centerY" secondItem="fIa-xs-2gz" secondAttribute="centerY" id="OUA-1c-HF8"/>
+                        <constraint firstItem="RgB-kz-tOK" firstAttribute="centerY" secondItem="fIa-xs-2gz" secondAttribute="centerY" id="bxe-XB-046"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h71-dZ-8Vh">
+                    <rect key="frame" x="0.0" y="40" width="200" height="160"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="Mvd-mL-W5N"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="9HB-mf-3nE"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fIa-xs-2gz" secondAttribute="trailing" id="22K-2V-BjJ"/>
+                <constraint firstItem="fIa-xs-2gz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7e3-7f-BLD"/>
+                <constraint firstAttribute="bottom" secondItem="h71-dZ-8Vh" secondAttribute="bottom" id="IcZ-IW-SiR"/>
+                <constraint firstItem="fIa-xs-2gz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ms1-Y2-FY7"/>
+                <constraint firstItem="h71-dZ-8Vh" firstAttribute="top" secondItem="fIa-xs-2gz" secondAttribute="bottom" id="gsS-ht-DjP"/>
+                <constraint firstAttribute="trailing" secondItem="h71-dZ-8Vh" secondAttribute="trailing" id="q4a-lL-0Bx"/>
+                <constraint firstItem="h71-dZ-8Vh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wKv-WJ-AwS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tableView" destination="h71-dZ-8Vh" id="bgR-Rp-V4y"/>
+            </connections>
+        </view>
+    </objects>
+</document>

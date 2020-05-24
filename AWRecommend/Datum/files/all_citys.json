@@ -1,0 +1,3477 @@
+{
+    "Hot": [
+        {
+            "pinyin": "beijing",
+            "firstletter": "bj",
+            "cityAdcode": "110100",
+            "cityCode": "010",
+            "name": "北京市",
+            "provinceName": "北京市",
+            "provinceAdcode": "110000"
+        },
+        {
+            "pinyin": "chengdu",
+            "firstletter": "cd",
+            "cityAdcode": "510100",
+            "cityCode": "028",
+            "name": "成都市",
+            "provinceName": "四川省",
+            "provinceAdcode": "510000"
+        },
+        {
+            "pinyin": "chongqing",
+            "firstletter": "cq",
+            "cityAdcode": "500100",
+            "cityCode": "023",
+            "name": "重庆市",
+            "provinceName": "重庆市",
+            "provinceAdcode": "500000"
+        },
+        {
+            "pinyin": "guangzhou",
+            "firstletter": "gz",
+            "cityAdcode": "440100",
+            "cityCode": "020",
+            "name": "广州市",
+        	"provinceName": "广东省",
+            "provinceAdcode": "440000"
+        },
+        {
+            "pinyin": "hangzhou",
+            "firstletter": "hz",
+            "cityAdcode": "330100",
+            "cityCode": "0571",
+            "name": "杭州市",
+            "provinceName": "浙江省",
+            "provinceAdcode": "330000"
+        },
+        {
+            "pinyin": "nanjing",
+            "firstletter": "nj",
+            "cityAdcode": "320100",
+            "cityCode": "025",
+            "name": "南京市",
+            "provinceName": "江苏省",
+            "provinceAdcode": "320000"
+        },
+        {
+            "pinyin": "shanghai",
+            "firstletter": "sh",
+            "cityAdcode": "310100",
+            "cityCode": "021",
+            "name": "上海市",
+            "provinceName": "上海市",
+            "provinceAdcode": "310000"
+        },
+        {
+            "pinyin": "shenzhen",
+            "firstletter": "sz",
+            "cityAdcode": "440300",
+            "cityCode": "0755",
+            "name": "深圳市",
+            "provinceName": "广东省",
+            "provinceAdcode": "440000"
+        },
+        {
+            "pinyin": "suzhou",
+            "firstletter": "sz",
+            "cityAdcode": "320500",
+            "cityCode": "0512",
+            "name": "苏州市",
+            "provinceName": "江苏省",
+            "provinceAdcode": "320000"
+        },
+        {
+            "pinyin": "tianjin",
+            "firstletter": "tj",
+            "cityAdcode": "120100",
+            "cityCode": "022",
+            "name": "天津市",
+            "provinceName": "天津市",
+            "provinceAdcode": "120000"
+        },
+        {
+            "pinyin": "wuhan",
+            "firstletter": "wh",
+            "cityAdcode": "420100",
+            "cityCode": "027",
+            "name": "武汉市",
+            "provinceName": "湖北省",
+            "provinceAdcode": "420000"
+        },
+        {
+            "pinyin": "xian",
+            "firstletter": "xa",
+            "cityAdcode": "610100",
+            "cityCode": "029",
+            "name": "西安市",
+            "provinceName": "陕西省",
+            "provinceAdcode": "610000"
+        }
+    ],
+        "A": [
+            {
+                "pinyin": "alashanmeng",
+                "firstletter": "alsm",
+                "cityAdcode": "152900",
+                "cityCode": "0483",
+                "name": "阿拉善盟",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "anshan",
+                "firstletter": "as",
+                "cityAdcode": "210300",
+                "cityCode": "0412",
+                "name": "鞍山市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "anqing",
+                "firstletter": "aq",
+                "cityAdcode": "340800",
+                "cityCode": "0556",
+                "name": "安庆市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "anyang",
+                "firstletter": "ay",
+                "cityAdcode": "410500",
+                "cityCode": "0372",
+                "name": "安阳市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "abazangzuqiangzuzizhizhou",
+                "firstletter": "abzzqzzzz",
+                "cityAdcode": "513200",
+                "cityCode": "0837",
+                "name": "阿坝藏族羌族自治州",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "anshun",
+                "firstletter": "as",
+                "cityAdcode": "520400",
+                "cityCode": "0853",
+                "name": "安顺市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "alidiqu",
+                "firstletter": "aldq",
+                "cityAdcode": "542500",
+                "cityCode": "0897",
+                "name": "阿里地区",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            },
+            {
+                "pinyin": "ankang",
+                "firstletter": "ak",
+                "cityAdcode": "610900",
+                "cityCode": "0915",
+                "name": "安康市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "alaer",
+                "firstletter": "ale",
+                "cityAdcode": "659002",
+                "cityCode": "1997",
+                "name": "阿拉尔市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "akesudiqu",
+                "firstletter": "aksdq",
+                "cityAdcode": "652900",
+                "cityCode": "0997",
+                "name": "阿克苏地区",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "aletaidiqu",
+                "firstletter": "altdq",
+                "cityAdcode": "654300",
+                "cityCode": "0906",
+                "name": "阿勒泰地区",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "B": [
+            {
+                "pinyin": "beijing",
+                "firstletter": "bj",
+                "cityAdcode": "110100",
+                "cityCode": "010",
+                "name": "北京市",
+                "provinceName": "北京市",
+                "provinceAdcode": "110000"
+            },
+            {
+                "pinyin": "baoding",
+                "firstletter": "bd",
+                "cityAdcode": "130600",
+                "cityCode": "0312",
+                "name": "保定市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "baotou",
+                "firstletter": "bt",
+                "cityAdcode": "150200",
+                "cityCode": "0472",
+                "name": "包头市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "bayannaoer",
+                "firstletter": "byne",
+                "cityAdcode": "150800",
+                "cityCode": "0478",
+                "name": "巴彦淖尔市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "benxi",
+                "firstletter": "bx",
+                "cityAdcode": "210500",
+                "cityCode": "0414",
+                "name": "本溪市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "baishan",
+                "firstletter": "bs",
+                "cityAdcode": "220600",
+                "cityCode": "0439",
+                "name": "白山市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "baicheng",
+                "firstletter": "bc",
+                "cityAdcode": "220800",
+                "cityCode": "0436",
+                "name": "白城市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "bangbu",
+                "firstletter": "bb",
+                "cityAdcode": "340300",
+                "cityCode": "0552",
+                "name": "蚌埠市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "bozhou",
+                "firstletter": "bz",
+                "cityAdcode": "341600",
+                "cityCode": "0558",
+                "name": "亳州市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "binzhou",
+                "firstletter": "bz",
+                "cityAdcode": "371600",
+                "cityCode": "0543",
+                "name": "滨州市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "beihai",
+                "firstletter": "bh",
+                "cityAdcode": "450500",
+                "cityCode": "0779",
+                "name": "北海市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "baise",
+                "firstletter": "bs",
+                "cityAdcode": "451000",
+                "cityCode": "0776",
+                "name": "百色市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "baishalizuzizhixian",
+                "firstletter": "bslzzzx",
+                "cityAdcode": "469025",
+                "cityCode": "0802",
+                "name": "白沙黎族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "baotinglizumiaozuzizhixian",
+                "firstletter": "btlzmzzzx",
+                "cityAdcode": "469029",
+                "cityCode": "0801",
+                "name": "保亭黎族苗族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "bazhong",
+                "firstletter": "bz",
+                "cityAdcode": "511900",
+                "cityCode": "0827",
+                "name": "巴中市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "bijie",
+                "firstletter": "bj",
+                "cityAdcode": "520500",
+                "cityCode": "0857",
+                "name": "毕节市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "baoshan",
+                "firstletter": "bs",
+                "cityAdcode": "530500",
+                "cityCode": "0875",
+                "name": "保山市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "baoji",
+                "firstletter": "bj",
+                "cityAdcode": "610300",
+                "cityCode": "0917",
+                "name": "宝鸡市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "baiyin",
+                "firstletter": "by",
+                "cityAdcode": "620400",
+                "cityCode": "0943",
+                "name": "白银市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "beitun",
+                "firstletter": "bt",
+                "cityAdcode": "659005",
+                "cityCode": "1906",
+                "name": "北屯市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "boertalamengguzizhizhou",
+                "firstletter": "betlmgzzz",
+                "cityAdcode": "652700",
+                "cityCode": "0909",
+                "name": "博尔塔拉蒙古自治州",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "bayinguolengmengguzizhizhou",
+                "firstletter": "byglmgzzz",
+                "cityAdcode": "652800",
+                "cityCode": "0996",
+                "name": "巴音郭楞蒙古自治州",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "C": [
+            {
+                "pinyin": "chengde",
+                "firstletter": "cd",
+                "cityAdcode": "130800",
+                "cityCode": "0314",
+                "name": "承德市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "cangzhou",
+                "firstletter": "cz",
+                "cityAdcode": "130900",
+                "cityCode": "0317",
+                "name": "沧州市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "chifeng",
+                "firstletter": "cf",
+                "cityAdcode": "150400",
+                "cityCode": "0476",
+                "name": "赤峰市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "chaoyang",
+                "firstletter": "cy",
+                "cityAdcode": "211300",
+                "cityCode": "0421",
+                "name": "朝阳市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "changzhou",
+                "firstletter": "cz",
+                "cityAdcode": "320400",
+                "cityCode": "0519",
+                "name": "常州市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "chuzhou",
+                "firstletter": "cz",
+                "cityAdcode": "341100",
+                "cityCode": "0550",
+                "name": "滁州市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "chizhou",
+                "firstletter": "cz",
+                "cityAdcode": "341700",
+                "cityCode": "0566",
+                "name": "池州市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "changde",
+                "firstletter": "cd",
+                "cityAdcode": "430700",
+                "cityCode": "0736",
+                "name": "常德市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "chenzhou",
+                "firstletter": "cz",
+                "cityAdcode": "431000",
+                "cityCode": "0735",
+                "name": "郴州市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "chaozhou",
+                "firstletter": "cz",
+                "cityAdcode": "445100",
+                "cityCode": "0768",
+                "name": "潮州市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "chongzuo",
+                "firstletter": "cz",
+                "cityAdcode": "451400",
+                "cityCode": "1771",
+                "name": "崇左市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "changjianglizuzizhixian",
+                "firstletter": "cjlzzzx",
+                "cityAdcode": "469026",
+                "cityCode": "0803",
+                "name": "昌江黎族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "chengmaixian",
+                "firstletter": "cmx",
+                "cityAdcode": "469023",
+                "cityCode": "0804",
+                "name": "澄迈县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "chengdu",
+                "firstletter": "cd",
+                "cityAdcode": "510100",
+                "cityCode": "028",
+                "name": "成都市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "chongqing",
+                "firstletter": "cq",
+                "cityAdcode": "500100",
+                "cityCode": "023",
+                "name": "重庆市",
+                "provinceName": "重庆市",
+                "provinceAdcode": "500000"
+            },
+            {
+                "pinyin": "chuxiongyizuzizhizhou",
+                "firstletter": "cxyzzzz",
+                "cityAdcode": "532300",
+                "cityCode": "0878",
+                "name": "楚雄彝族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "changdou",
+                "firstletter": "cd",
+                "cityAdcode": "540300",
+                "cityCode": "0895",
+                "name": "昌都市",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            },
+            {
+                "pinyin": "changjihuizuzizhizhou",
+                "firstletter": "cjhzzzz",
+                "cityAdcode": "652300",
+                "cityCode": "0994",
+                "name": "昌吉回族自治州",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "D": [
+            {
+                "pinyin": "datong",
+                "firstletter": "dt",
+                "cityAdcode": "140200",
+                "cityCode": "0352",
+                "name": "大同市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "dalian",
+                "firstletter": "dl",
+                "cityAdcode": "210200",
+                "cityCode": "0411",
+                "name": "大连市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "dandong",
+                "firstletter": "dd",
+                "cityAdcode": "210600",
+                "cityCode": "0415",
+                "name": "丹东市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "daqing",
+                "firstletter": "dq",
+                "cityAdcode": "230600",
+                "cityCode": "0459",
+                "name": "大庆市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "daxinganlingdiqu",
+                "firstletter": "dxaldq",
+                "cityAdcode": "232700",
+                "cityCode": "0457",
+                "name": "大兴安岭地区",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "dongying",
+                "firstletter": "dy",
+                "cityAdcode": "370500",
+                "cityCode": "0546",
+                "name": "东营市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "dezhou",
+                "firstletter": "dz",
+                "cityAdcode": "371400",
+                "cityCode": "0534",
+                "name": "德州市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "dongguan",
+                "firstletter": "dg",
+                "cityAdcode": "441900",
+                "cityCode": "0769",
+                "name": "东莞市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "dongshaqundao",
+                "firstletter": "dsqd",
+                "cityAdcode": "442100",
+                "cityCode": "[]",
+                "name": "东沙群岛",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "danzhou",
+                "firstletter": "dz",
+                "cityAdcode": "460400",
+                "cityCode": "0805",
+                "name": "儋州市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "dinganxian",
+                "firstletter": "dax",
+                "cityAdcode": "469021",
+                "cityCode": "0806",
+                "name": "定安县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "dongfang",
+                "firstletter": "df",
+                "cityAdcode": "469007",
+                "cityCode": "0807",
+                "name": "东方市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "deyang",
+                "firstletter": "dy",
+                "cityAdcode": "510600",
+                "cityCode": "0838",
+                "name": "德阳市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "dazhou",
+                "firstletter": "dz",
+                "cityAdcode": "511700",
+                "cityCode": "0818",
+                "name": "达州市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "dalibaizuzizhizhou",
+                "firstletter": "dlbzzzz",
+                "cityAdcode": "532900",
+                "cityCode": "0872",
+                "name": "大理白族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "dehongdaizujingpozuzizhizhou",
+                "firstletter": "dhdzjpzzzz",
+                "cityAdcode": "533100",
+                "cityCode": "0692",
+                "name": "德宏傣族景颇族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "diqingzangzuzizhizhou",
+                "firstletter": "dqzzzzz",
+                "cityAdcode": "533400",
+                "cityCode": "0887",
+                "name": "迪庆藏族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "dingxi",
+                "firstletter": "dx",
+                "cityAdcode": "621100",
+                "cityCode": "0932",
+                "name": "定西市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            }
+        ],
+        "E": [
+            {
+                "pinyin": "eerduosi",
+                "firstletter": "eeds",
+                "cityAdcode": "150600",
+                "cityCode": "0477",
+                "name": "鄂尔多斯市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "ezhou",
+                "firstletter": "ez",
+                "cityAdcode": "420700",
+                "cityCode": "0711",
+                "name": "鄂州市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "enshitujiazumiaozuzizhizhou",
+                "firstletter": "estjzmzzzz",
+                "cityAdcode": "422800",
+                "cityCode": "0718",
+                "name": "恩施土家族苗族自治州",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            }
+        ],
+        "F": [
+            {
+                "pinyin": "fushun",
+                "firstletter": "fs",
+                "cityAdcode": "210400",
+                "cityCode": "0413",
+                "name": "抚顺市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "fuxin",
+                "firstletter": "fx",
+                "cityAdcode": "210900",
+                "cityCode": "0418",
+                "name": "阜新市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "fuyang",
+                "firstletter": "fy",
+                "cityAdcode": "341200",
+                "cityCode": "1558",
+                "name": "阜阳市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "fuzhou",
+                "firstletter": "fz",
+                "cityAdcode": "350100",
+                "cityCode": "0591",
+                "name": "福州市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "fuzhou",
+                "firstletter": "fz",
+                "cityAdcode": "361000",
+                "cityCode": "0794",
+                "name": "抚州市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "foshan",
+                "firstletter": "fs",
+                "cityAdcode": "440600",
+                "cityCode": "0757",
+                "name": "佛山市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "fangchenggang",
+                "firstletter": "fcg",
+                "cityAdcode": "450600",
+                "cityCode": "0770",
+                "name": "防城港市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            }
+        ],
+        "G": [
+            {
+                "pinyin": "ganzhou",
+                "firstletter": "gz",
+                "cityAdcode": "360700",
+                "cityCode": "0797",
+                "name": "赣州市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "guangzhou",
+                "firstletter": "gz",
+                "cityAdcode": "440100",
+                "cityCode": "020",
+                "name": "广州市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "guilin",
+                "firstletter": "gl",
+                "cityAdcode": "450300",
+                "cityCode": "0773",
+                "name": "桂林市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "guigang",
+                "firstletter": "gg",
+                "cityAdcode": "450800",
+                "cityCode": "1755",
+                "name": "贵港市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "guangyuan",
+                "firstletter": "gy",
+                "cityAdcode": "510800",
+                "cityCode": "0839",
+                "name": "广元市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "guangan",
+                "firstletter": "ga",
+                "cityAdcode": "511600",
+                "cityCode": "0826",
+                "name": "广安市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "ganzizangzuzizhizhou",
+                "firstletter": "gzzzzzz",
+                "cityAdcode": "513300",
+                "cityCode": "0836",
+                "name": "甘孜藏族自治州",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "guiyang",
+                "firstletter": "gy",
+                "cityAdcode": "520100",
+                "cityCode": "0851",
+                "name": "贵阳市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "gannanzangzuzizhizhou",
+                "firstletter": "gnzzzzz",
+                "cityAdcode": "623000",
+                "cityCode": "0941",
+                "name": "甘南藏族自治州",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "guoluozangzuzizhizhou",
+                "firstletter": "glzzzzz",
+                "cityAdcode": "632600",
+                "cityCode": "0975",
+                "name": "果洛藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "guyuan",
+                "firstletter": "gy",
+                "cityAdcode": "640400",
+                "cityCode": "0954",
+                "name": "固原市",
+                "provinceName": "宁夏回族自治区",
+                "provinceAdcode": "640000"
+            }
+        ],
+        "H": [
+            {
+                "pinyin": "handan",
+                "firstletter": "hd",
+                "cityAdcode": "130400",
+                "cityCode": "0310",
+                "name": "邯郸市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "hengshui",
+                "firstletter": "hs",
+                "cityAdcode": "131100",
+                "cityCode": "0318",
+                "name": "衡水市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "huhehaote",
+                "firstletter": "hhht",
+                "cityAdcode": "150100",
+                "cityCode": "0471",
+                "name": "呼和浩特市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "hulunbeier",
+                "firstletter": "hlbe",
+                "cityAdcode": "150700",
+                "cityCode": "0470",
+                "name": "呼伦贝尔市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "huludao",
+                "firstletter": "hld",
+                "cityAdcode": "211400",
+                "cityCode": "0429",
+                "name": "葫芦岛市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "haerbin",
+                "firstletter": "heb",
+                "cityAdcode": "230100",
+                "cityCode": "0451",
+                "name": "哈尔滨市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "hegang",
+                "firstletter": "hg",
+                "cityAdcode": "230400",
+                "cityCode": "0468",
+                "name": "鹤岗市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "heihe",
+                "firstletter": "hh",
+                "cityAdcode": "231100",
+                "cityCode": "0456",
+                "name": "黑河市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "huaian",
+                "firstletter": "ha",
+                "cityAdcode": "320800",
+                "cityCode": "0517",
+                "name": "淮安市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "hangzhou",
+                "firstletter": "hz",
+                "cityAdcode": "330100",
+                "cityCode": "0571",
+                "name": "杭州市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "huzhou",
+                "firstletter": "hz",
+                "cityAdcode": "330500",
+                "cityCode": "0572",
+                "name": "湖州市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "hefei",
+                "firstletter": "hf",
+                "cityAdcode": "340100",
+                "cityCode": "0551",
+                "name": "合肥市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "huainan",
+                "firstletter": "hn",
+                "cityAdcode": "340400",
+                "cityCode": "0554",
+                "name": "淮南市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "huaibei",
+                "firstletter": "hb",
+                "cityAdcode": "340600",
+                "cityCode": "0561",
+                "name": "淮北市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "huangshan",
+                "firstletter": "hs",
+                "cityAdcode": "341000",
+                "cityCode": "0559",
+                "name": "黄山市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "heze",
+                "firstletter": "hz",
+                "cityAdcode": "371700",
+                "cityCode": "0530",
+                "name": "菏泽市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "hebi",
+                "firstletter": "hb",
+                "cityAdcode": "410600",
+                "cityCode": "0392",
+                "name": "鹤壁市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "huangshi",
+                "firstletter": "hs",
+                "cityAdcode": "420200",
+                "cityCode": "0714",
+                "name": "黄石市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "huanggang",
+                "firstletter": "hg",
+                "cityAdcode": "421100",
+                "cityCode": "0713",
+                "name": "黄冈市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "hengyang",
+                "firstletter": "hy",
+                "cityAdcode": "430400",
+                "cityCode": "0734",
+                "name": "衡阳市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "huaihua",
+                "firstletter": "hh",
+                "cityAdcode": "431200",
+                "cityCode": "0745",
+                "name": "怀化市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "huizhou",
+                "firstletter": "hz",
+                "cityAdcode": "441300",
+                "cityCode": "0752",
+                "name": "惠州市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "heyuan",
+                "firstletter": "hy",
+                "cityAdcode": "441600",
+                "cityCode": "0762",
+                "name": "河源市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "hezhou",
+                "firstletter": "hz",
+                "cityAdcode": "451100",
+                "cityCode": "1774",
+                "name": "贺州市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "hechi",
+                "firstletter": "hc",
+                "cityAdcode": "451200",
+                "cityCode": "0778",
+                "name": "河池市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "haikou",
+                "firstletter": "hk",
+                "cityAdcode": "460100",
+                "cityCode": "0898",
+                "name": "海口市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "honghehanizuyizuzizhizhou",
+                "firstletter": "hhhnzyzzzz",
+                "cityAdcode": "532500",
+                "cityCode": "0873",
+                "name": "红河哈尼族彝族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "hanzhong",
+                "firstletter": "hz",
+                "cityAdcode": "610700",
+                "cityCode": "0916",
+                "name": "汉中市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "haidong",
+                "firstletter": "hd",
+                "cityAdcode": "630200",
+                "cityCode": "0972",
+                "name": "海东市",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "haibeizangzuzizhizhou",
+                "firstletter": "hbzzzzz",
+                "cityAdcode": "632200",
+                "cityCode": "0970",
+                "name": "海北藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "huangnanzangzuzizhizhou",
+                "firstletter": "hnzzzzz",
+                "cityAdcode": "632300",
+                "cityCode": "0973",
+                "name": "黄南藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "hainanzangzuzizhizhou",
+                "firstletter": "hnzzzzz",
+                "cityAdcode": "632500",
+                "cityCode": "0974",
+                "name": "海南藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "haiximengguzuzangzuzizhizhou",
+                "firstletter": "hxmgzzzzzz",
+                "cityAdcode": "632800",
+                "cityCode": "0977",
+                "name": "海西蒙古族藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "hami",
+                "firstletter": "hm",
+                "cityAdcode": "650500",
+                "cityCode": "0902",
+                "name": "哈密市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "hetiandiqu",
+                "firstletter": "htdq",
+                "cityAdcode": "653200",
+                "cityCode": "0903",
+                "name": "和田地区",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "J": [
+            {
+                "pinyin": "jincheng",
+                "firstletter": "jc",
+                "cityAdcode": "140500",
+                "cityCode": "0356",
+                "name": "晋城市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "jinzhong",
+                "firstletter": "jz",
+                "cityAdcode": "140700",
+                "cityCode": "0354",
+                "name": "晋中市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "jinzhou",
+                "firstletter": "jz",
+                "cityAdcode": "210700",
+                "cityCode": "0416",
+                "name": "锦州市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "jilin",
+                "firstletter": "jl",
+                "cityAdcode": "220200",
+                "cityCode": "0432",
+                "name": "吉林市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "jixi",
+                "firstletter": "jx",
+                "cityAdcode": "230300",
+                "cityCode": "0467",
+                "name": "鸡西市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "jiamusi",
+                "firstletter": "jms",
+                "cityAdcode": "230800",
+                "cityCode": "0454",
+                "name": "佳木斯市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "jiaxing",
+                "firstletter": "jx",
+                "cityAdcode": "330400",
+                "cityCode": "0573",
+                "name": "嘉兴市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "jinhua",
+                "firstletter": "jh",
+                "cityAdcode": "330700",
+                "cityCode": "0579",
+                "name": "金华市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "jingdezhen",
+                "firstletter": "jdz",
+                "cityAdcode": "360200",
+                "cityCode": "0798",
+                "name": "景德镇市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "jiujiang",
+                "firstletter": "jj",
+                "cityAdcode": "360400",
+                "cityCode": "0792",
+                "name": "九江市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "jian",
+                "firstletter": "ja",
+                "cityAdcode": "360800",
+                "cityCode": "0796",
+                "name": "吉安市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "jinan",
+                "firstletter": "jn",
+                "cityAdcode": "370100",
+                "cityCode": "0531",
+                "name": "济南市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "jining",
+                "firstletter": "jn",
+                "cityAdcode": "370800",
+                "cityCode": "0537",
+                "name": "济宁市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "jiaozuo",
+                "firstletter": "jz",
+                "cityAdcode": "410800",
+                "cityCode": "0391",
+                "name": "焦作市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "jiyuan",
+                "firstletter": "jy",
+                "cityAdcode": "419001",
+                "cityCode": "1391",
+                "name": "济源市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "jingmen",
+                "firstletter": "jm",
+                "cityAdcode": "420800",
+                "cityCode": "0724",
+                "name": "荆门市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "jingzhou",
+                "firstletter": "jz",
+                "cityAdcode": "421000",
+                "cityCode": "0716",
+                "name": "荆州市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "jiangmen",
+                "firstletter": "jm",
+                "cityAdcode": "440700",
+                "cityCode": "0750",
+                "name": "江门市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "jieyang",
+                "firstletter": "jy",
+                "cityAdcode": "445200",
+                "cityCode": "0663",
+                "name": "揭阳市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "jiayuguan",
+                "firstletter": "jyg",
+                "cityAdcode": "620200",
+                "cityCode": "1937",
+                "name": "嘉峪关市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "jinchang",
+                "firstletter": "jc",
+                "cityAdcode": "620300",
+                "cityCode": "0935",
+                "name": "金昌市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "jiuquan",
+                "firstletter": "jq",
+                "cityAdcode": "620900",
+                "cityCode": "0937",
+                "name": "酒泉市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            }
+        ],
+        "K": [
+            {
+                "pinyin": "kaifeng",
+                "firstletter": "kf",
+                "cityAdcode": "410200",
+                "cityCode": "0378",
+                "name": "开封市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "kunming",
+                "firstletter": "km",
+                "cityAdcode": "530100",
+                "cityCode": "0871",
+                "name": "昆明市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "kekedala",
+                "firstletter": "kkdl",
+                "cityAdcode": "659008",
+                "cityCode": "1999",
+                "name": "可克达拉市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "kunyu",
+                "firstletter": "ky",
+                "cityAdcode": "659009",
+                "cityCode": "1903",
+                "name": "昆玉市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "kelamayi",
+                "firstletter": "klmy",
+                "cityAdcode": "650200",
+                "cityCode": "0990",
+                "name": "克拉玛依市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "kezilesukeerkezizizhizhou",
+                "firstletter": "kzlskekzzzz",
+                "cityAdcode": "653000",
+                "cityCode": "0908",
+                "name": "克孜勒苏柯尔克孜自治州",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "kashendiqu",
+                "firstletter": "ksdq",
+                "cityAdcode": "653100",
+                "cityCode": "0998",
+                "name": "喀什地区",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "L": [
+            {
+                "pinyin": "langfang",
+                "firstletter": "lf",
+                "cityAdcode": "131000",
+                "cityCode": "0316",
+                "name": "廊坊市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "linfen",
+                "firstletter": "lf",
+                "cityAdcode": "141000",
+                "cityCode": "0357",
+                "name": "临汾市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "lvliang",
+                "firstletter": "ll",
+                "cityAdcode": "141100",
+                "cityCode": "0358",
+                "name": "吕梁市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "liaoyang",
+                "firstletter": "ly",
+                "cityAdcode": "211000",
+                "cityCode": "0419",
+                "name": "辽阳市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "liaoyuan",
+                "firstletter": "ly",
+                "cityAdcode": "220400",
+                "cityCode": "0437",
+                "name": "辽源市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "lianyungang",
+                "firstletter": "lyg",
+                "cityAdcode": "320700",
+                "cityCode": "0518",
+                "name": "连云港市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "lishui",
+                "firstletter": "ls",
+                "cityAdcode": "331100",
+                "cityCode": "0578",
+                "name": "丽水市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "liuan",
+                "firstletter": "la",
+                "cityAdcode": "341500",
+                "cityCode": "0564",
+                "name": "六安市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "longyan",
+                "firstletter": "ly",
+                "cityAdcode": "350800",
+                "cityCode": "0597",
+                "name": "龙岩市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "laiwu",
+                "firstletter": "lw",
+                "cityAdcode": "371200",
+                "cityCode": "0634",
+                "name": "莱芜市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "linyi",
+                "firstletter": "ly",
+                "cityAdcode": "371300",
+                "cityCode": "0539",
+                "name": "临沂市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "liaocheng",
+                "firstletter": "lc",
+                "cityAdcode": "371500",
+                "cityCode": "0635",
+                "name": "聊城市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "luoyang",
+                "firstletter": "ly",
+                "cityAdcode": "410300",
+                "cityCode": "0379",
+                "name": "洛阳市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "luohe",
+                "firstletter": "lh",
+                "cityAdcode": "411100",
+                "cityCode": "0395",
+                "name": "漯河市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "loudi",
+                "firstletter": "ld",
+                "cityAdcode": "431300",
+                "cityCode": "0738",
+                "name": "娄底市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "liuzhou",
+                "firstletter": "lz",
+                "cityAdcode": "450200",
+                "cityCode": "0772",
+                "name": "柳州市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "laibin",
+                "firstletter": "lb",
+                "cityAdcode": "451300",
+                "cityCode": "1772",
+                "name": "来宾市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "ledonglizuzizhixian",
+                "firstletter": "ldlzzzx",
+                "cityAdcode": "469027",
+                "cityCode": "2802",
+                "name": "乐东黎族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "lingaoxian",
+                "firstletter": "lgx",
+                "cityAdcode": "469024",
+                "cityCode": "1896",
+                "name": "临高县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "lingshuilizuzizhixian",
+                "firstletter": "lslzzzx",
+                "cityAdcode": "469028",
+                "cityCode": "0809",
+                "name": "陵水黎族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "luzhou",
+                "firstletter": "lz",
+                "cityAdcode": "510500",
+                "cityCode": "0830",
+                "name": "泸州市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "leshan",
+                "firstletter": "ls",
+                "cityAdcode": "511100",
+                "cityCode": "0833",
+                "name": "乐山市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "liangshanyizuzizhizhou",
+                "firstletter": "lsyzzzz",
+                "cityAdcode": "513400",
+                "cityCode": "0834",
+                "name": "凉山彝族自治州",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "liupanshui",
+                "firstletter": "lps",
+                "cityAdcode": "520200",
+                "cityCode": "0858",
+                "name": "六盘水市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "lijiang",
+                "firstletter": "lj",
+                "cityAdcode": "530700",
+                "cityCode": "0888",
+                "name": "丽江市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "lincang",
+                "firstletter": "lc",
+                "cityAdcode": "530900",
+                "cityCode": "0883",
+                "name": "临沧市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "lasa",
+                "firstletter": "ls",
+                "cityAdcode": "540100",
+                "cityCode": "0891",
+                "name": "拉萨市",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            },
+            {
+                "pinyin": "linzhi",
+                "firstletter": "lz",
+                "cityAdcode": "540400",
+                "cityCode": "0894",
+                "name": "林芝市",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            },
+            {
+                "pinyin": "lanzhou",
+                "firstletter": "lz",
+                "cityAdcode": "620100",
+                "cityCode": "0931",
+                "name": "兰州市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "longnan",
+                "firstletter": "ln",
+                "cityAdcode": "621200",
+                "cityCode": "2935",
+                "name": "陇南市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "linxiahuizuzizhizhou",
+                "firstletter": "lxhzzzz",
+                "cityAdcode": "622900",
+                "cityCode": "0930",
+                "name": "临夏回族自治州",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            }
+        ],
+        "M": [
+            {
+                "pinyin": "mudanjiang",
+                "firstletter": "mdj",
+                "cityAdcode": "231000",
+                "cityCode": "0453",
+                "name": "牡丹江市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "maanshan",
+                "firstletter": "mas",
+                "cityAdcode": "340500",
+                "cityCode": "0555",
+                "name": "马鞍山市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "maoming",
+                "firstletter": "mm",
+                "cityAdcode": "440900",
+                "cityCode": "0668",
+                "name": "茂名市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "meizhou",
+                "firstletter": "mz",
+                "cityAdcode": "441400",
+                "cityCode": "0753",
+                "name": "梅州市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "mianyang",
+                "firstletter": "my",
+                "cityAdcode": "510700",
+                "cityCode": "0816",
+                "name": "绵阳市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "meishan",
+                "firstletter": "ms",
+                "cityAdcode": "511400",
+                "cityCode": "1833",
+                "name": "眉山市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            }
+        ],
+        "N": [
+            {
+                "pinyin": "nanjing",
+                "firstletter": "nj",
+                "cityAdcode": "320100",
+                "cityCode": "025",
+                "name": "南京市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "nantong",
+                "firstletter": "nt",
+                "cityAdcode": "320600",
+                "cityCode": "0513",
+                "name": "南通市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "ningbo",
+                "firstletter": "nb",
+                "cityAdcode": "330200",
+                "cityCode": "0574",
+                "name": "宁波市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "nanping",
+                "firstletter": "np",
+                "cityAdcode": "350700",
+                "cityCode": "0599",
+                "name": "南平市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "ningde",
+                "firstletter": "nd",
+                "cityAdcode": "350900",
+                "cityCode": "0593",
+                "name": "宁德市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "nanchang",
+                "firstletter": "nc",
+                "cityAdcode": "360100",
+                "cityCode": "0791",
+                "name": "南昌市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "nanyang",
+                "firstletter": "ny",
+                "cityAdcode": "411300",
+                "cityCode": "0377",
+                "name": "南阳市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "nanning",
+                "firstletter": "nn",
+                "cityAdcode": "450100",
+                "cityCode": "0771",
+                "name": "南宁市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "neijiang",
+                "firstletter": "nj",
+                "cityAdcode": "511000",
+                "cityCode": "1832",
+                "name": "内江市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "nanchong",
+                "firstletter": "nc",
+                "cityAdcode": "511300",
+                "cityCode": "0817",
+                "name": "南充市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "nujianglisuzuzizhizhou",
+                "firstletter": "njlszzzz",
+                "cityAdcode": "533300",
+                "cityCode": "0886",
+                "name": "怒江傈僳族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "neiqudiqu",
+                "firstletter": "nqdq",
+                "cityAdcode": "542400",
+                "cityCode": "0896",
+                "name": "那曲地区",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            }
+        ],
+        "P": [
+            {
+                "pinyin": "panjin",
+                "firstletter": "pj",
+                "cityAdcode": "211100",
+                "cityCode": "0427",
+                "name": "盘锦市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "putian",
+                "firstletter": "pt",
+                "cityAdcode": "350300",
+                "cityCode": "0594",
+                "name": "莆田市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "pingxiang",
+                "firstletter": "px",
+                "cityAdcode": "360300",
+                "cityCode": "0799",
+                "name": "萍乡市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "pingdingshan",
+                "firstletter": "pds",
+                "cityAdcode": "410400",
+                "cityCode": "0375",
+                "name": "平顶山市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "puyang",
+                "firstletter": "py",
+                "cityAdcode": "410900",
+                "cityCode": "0393",
+                "name": "濮阳市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "panzhihua",
+                "firstletter": "pzh",
+                "cityAdcode": "510400",
+                "cityCode": "0812",
+                "name": "攀枝花市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "puer",
+                "firstletter": "pe",
+                "cityAdcode": "530800",
+                "cityCode": "0879",
+                "name": "普洱市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "pingliang",
+                "firstletter": "pl",
+                "cityAdcode": "620800",
+                "cityCode": "0933",
+                "name": "平凉市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            }
+        ],
+        "Q": [
+            {
+                "pinyin": "qinhuangdao",
+                "firstletter": "qhd",
+                "cityAdcode": "130300",
+                "cityCode": "0335",
+                "name": "秦皇岛市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "qiqihaer",
+                "firstletter": "qqhe",
+                "cityAdcode": "230200",
+                "cityCode": "0452",
+                "name": "齐齐哈尔市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "qitaihe",
+                "firstletter": "qth",
+                "cityAdcode": "230900",
+                "cityCode": "0464",
+                "name": "七台河市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "quzhou",
+                "firstletter": "qz",
+                "cityAdcode": "330800",
+                "cityCode": "0570",
+                "name": "衢州市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "quanzhou",
+                "firstletter": "qz",
+                "cityAdcode": "350500",
+                "cityCode": "0595",
+                "name": "泉州市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "qingdao",
+                "firstletter": "qd",
+                "cityAdcode": "370200",
+                "cityCode": "0532",
+                "name": "青岛市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "qianjiang",
+                "firstletter": "qj",
+                "cityAdcode": "429005",
+                "cityCode": "2728",
+                "name": "潜江市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "qingyuan",
+                "firstletter": "qy",
+                "cityAdcode": "441800",
+                "cityCode": "0763",
+                "name": "清远市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "qinzhou",
+                "firstletter": "qz",
+                "cityAdcode": "450700",
+                "cityCode": "0777",
+                "name": "钦州市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "qionghai",
+                "firstletter": "qh",
+                "cityAdcode": "469002",
+                "cityCode": "1894",
+                "name": "琼海市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "qiongzhonglizumiaozuzizhixian",
+                "firstletter": "qzlzmzzzx",
+                "cityAdcode": "469030",
+                "cityCode": "1899",
+                "name": "琼中黎族苗族自治县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "qianxinanbuyizumiaozuzizhizhou",
+                "firstletter": "qxnbyzmzzzz",
+                "cityAdcode": "522300",
+                "cityCode": "0859",
+                "name": "黔西南布依族苗族自治州",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "qiandongnanmiaozudongzuzizhizhou",
+                "firstletter": "qdnmzdzzzz",
+                "cityAdcode": "522600",
+                "cityCode": "0855",
+                "name": "黔东南苗族侗族自治州",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "qiannanbuyizumiaozuzizhizhou",
+                "firstletter": "qnbyzmzzzz",
+                "cityAdcode": "522700",
+                "cityCode": "0854",
+                "name": "黔南布依族苗族自治州",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "qujing",
+                "firstletter": "qj",
+                "cityAdcode": "530300",
+                "cityCode": "0874",
+                "name": "曲靖市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "qingyang",
+                "firstletter": "qy",
+                "cityAdcode": "621000",
+                "cityCode": "0934",
+                "name": "庆阳市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            }
+        ],
+        "R": [
+            {
+                "pinyin": "rizhao",
+                "firstletter": "rz",
+                "cityAdcode": "371100",
+                "cityCode": "0633",
+                "name": "日照市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "rikaze",
+                "firstletter": "rkz",
+                "cityAdcode": "540200",
+                "cityCode": "0892",
+                "name": "日喀则市",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            }
+        ],
+        "S": [
+            {
+                "pinyin": "shijiazhuang",
+                "firstletter": "sjz",
+                "cityAdcode": "130100",
+                "cityCode": "0311",
+                "name": "石家庄市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "shuozhou",
+                "firstletter": "sz",
+                "cityAdcode": "140600",
+                "cityCode": "0349",
+                "name": "朔州市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "shenyang",
+                "firstletter": "sy",
+                "cityAdcode": "210100",
+                "cityCode": "024",
+                "name": "沈阳市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "siping",
+                "firstletter": "sp",
+                "cityAdcode": "220300",
+                "cityCode": "0434",
+                "name": "四平市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "songyuan",
+                "firstletter": "sy",
+                "cityAdcode": "220700",
+                "cityCode": "0438",
+                "name": "松原市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "shuangyashan",
+                "firstletter": "sys",
+                "cityAdcode": "230500",
+                "cityCode": "0469",
+                "name": "双鸭山市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "suihua",
+                "firstletter": "sh",
+                "cityAdcode": "231200",
+                "cityCode": "0455",
+                "name": "绥化市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "shanghai",
+                "firstletter": "sh",
+                "cityAdcode": "310100",
+                "cityCode": "021",
+                "name": "上海市",
+                "provinceName": "上海市",
+                "provinceAdcode": "310000"
+            },
+            {
+                "pinyin": "suzhou",
+                "firstletter": "sz",
+                "cityAdcode": "320500",
+                "cityCode": "0512",
+                "name": "苏州市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "suqian",
+                "firstletter": "sq",
+                "cityAdcode": "321300",
+                "cityCode": "0527",
+                "name": "宿迁市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "shaoxing",
+                "firstletter": "sx",
+                "cityAdcode": "330600",
+                "cityCode": "0575",
+                "name": "绍兴市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "suzhou",
+                "firstletter": "sz",
+                "cityAdcode": "341300",
+                "cityCode": "0557",
+                "name": "宿州市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "shamen",
+                "firstletter": "sm",
+                "cityAdcode": "350200",
+                "cityCode": "0592",
+                "name": "厦门市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "sanming",
+                "firstletter": "sm",
+                "cityAdcode": "350400",
+                "cityCode": "0598",
+                "name": "三明市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "shangrao",
+                "firstletter": "sr",
+                "cityAdcode": "361100",
+                "cityCode": "0793",
+                "name": "上饶市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "sanmenxia",
+                "firstletter": "smx",
+                "cityAdcode": "411200",
+                "cityCode": "0398",
+                "name": "三门峡市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "shangqiu",
+                "firstletter": "sq",
+                "cityAdcode": "411400",
+                "cityCode": "0370",
+                "name": "商丘市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "shiyan",
+                "firstletter": "sy",
+                "cityAdcode": "420300",
+                "cityCode": "0719",
+                "name": "十堰市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "suizhou",
+                "firstletter": "sz",
+                "cityAdcode": "421300",
+                "cityCode": "0722",
+                "name": "随州市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "shennongjialinqu",
+                "firstletter": "snjlq",
+                "cityAdcode": "429021",
+                "cityCode": "1719",
+                "name": "神农架林区",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "shaoyang",
+                "firstletter": "sy",
+                "cityAdcode": "430500",
+                "cityCode": "0739",
+                "name": "邵阳市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "shaoguan",
+                "firstletter": "sg",
+                "cityAdcode": "440200",
+                "cityCode": "0751",
+                "name": "韶关市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "shenzhen",
+                "firstletter": "sz",
+                "cityAdcode": "440300",
+                "cityCode": "0755",
+                "name": "深圳市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "shantou",
+                "firstletter": "st",
+                "cityAdcode": "440500",
+                "cityCode": "0754",
+                "name": "汕头市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "shanwei",
+                "firstletter": "sw",
+                "cityAdcode": "441500",
+                "cityCode": "0660",
+                "name": "汕尾市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "sanya",
+                "firstletter": "sy",
+                "cityAdcode": "460200",
+                "cityCode": "0899",
+                "name": "三亚市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "sansha",
+                "firstletter": "ss",
+                "cityAdcode": "460300",
+                "cityCode": "2898",
+                "name": "三沙市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "suining",
+                "firstletter": "sn",
+                "cityAdcode": "510900",
+                "cityCode": "0825",
+                "name": "遂宁市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "shannan",
+                "firstletter": "sn",
+                "cityAdcode": "540500",
+                "cityCode": "0893",
+                "name": "山南市",
+                "provinceName": "西藏自治区",
+                "provinceAdcode": "540000"
+            },
+            {
+                "pinyin": "shangluo",
+                "firstletter": "sl",
+                "cityAdcode": "611000",
+                "cityCode": "0914",
+                "name": "商洛市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "shizuishan",
+                "firstletter": "szs",
+                "cityAdcode": "640200",
+                "cityCode": "0952",
+                "name": "石嘴山市",
+                "provinceName": "宁夏回族自治区",
+                "provinceAdcode": "640000"
+            },
+            {
+                "pinyin": "shihezi",
+                "firstletter": "shz",
+                "cityAdcode": "659001",
+                "cityCode": "0993",
+                "name": "石河子市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "shuanghe",
+                "firstletter": "sh",
+                "cityAdcode": "659007",
+                "cityCode": "1909",
+                "name": "双河市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "T": [
+            {
+                "pinyin": "tianjin",
+                "firstletter": "tj",
+                "cityAdcode": "120100",
+                "cityCode": "022",
+                "name": "天津市",
+                "provinceName": "天津市",
+                "provinceAdcode": "120000"
+            },
+            {
+                "pinyin": "tangshan",
+                "firstletter": "ts",
+                "cityAdcode": "130200",
+                "cityCode": "0315",
+                "name": "唐山市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "taiyuan",
+                "firstletter": "ty",
+                "cityAdcode": "140100",
+                "cityCode": "0351",
+                "name": "太原市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "tongliao",
+                "firstletter": "tl",
+                "cityAdcode": "150500",
+                "cityCode": "0475",
+                "name": "通辽市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "tieling",
+                "firstletter": "tl",
+                "cityAdcode": "211200",
+                "cityCode": "0410",
+                "name": "铁岭市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "tonghua",
+                "firstletter": "th",
+                "cityAdcode": "220500",
+                "cityCode": "0435",
+                "name": "通化市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "taizhou",
+                "firstletter": "tz",
+                "cityAdcode": "321200",
+                "cityCode": "0523",
+                "name": "泰州市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "taizhou",
+                "firstletter": "tz",
+                "cityAdcode": "331000",
+                "cityCode": "0576",
+                "name": "台州市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "tongling",
+                "firstletter": "tl",
+                "cityAdcode": "340700",
+                "cityCode": "0562",
+                "name": "铜陵市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "taian",
+                "firstletter": "ta",
+                "cityAdcode": "370900",
+                "cityCode": "0538",
+                "name": "泰安市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "tianmen",
+                "firstletter": "tm",
+                "cityAdcode": "429006",
+                "cityCode": "1728",
+                "name": "天门市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "tunchangxian",
+                "firstletter": "tcx",
+                "cityAdcode": "469022",
+                "cityCode": "1892",
+                "name": "屯昌县",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "tongren",
+                "firstletter": "tr",
+                "cityAdcode": "520600",
+                "cityCode": "0856",
+                "name": "铜仁市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "tongchuan",
+                "firstletter": "tc",
+                "cityAdcode": "610200",
+                "cityCode": "0919",
+                "name": "铜川市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "tianshui",
+                "firstletter": "ts",
+                "cityAdcode": "620500",
+                "cityCode": "0938",
+                "name": "天水市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "tulufan",
+                "firstletter": "tlf",
+                "cityAdcode": "650400",
+                "cityCode": "0995",
+                "name": "吐鲁番市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "tachengdiqu",
+                "firstletter": "tcdq",
+                "cityAdcode": "654200",
+                "cityCode": "0901",
+                "name": "塔城地区",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "tiemenguan",
+                "firstletter": "tmg",
+                "cityAdcode": "659006",
+                "cityCode": "1996",
+                "name": "铁门关市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "tumushuke",
+                "firstletter": "tmsk",
+                "cityAdcode": "659003",
+                "cityCode": "1998",
+                "name": "图木舒克市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "W": [
+            {
+                "pinyin": "wuhai",
+                "firstletter": "wh",
+                "cityAdcode": "150300",
+                "cityCode": "0473",
+                "name": "乌海市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "wulanchabu",
+                "firstletter": "wlcb",
+                "cityAdcode": "150900",
+                "cityCode": "0474",
+                "name": "乌兰察布市",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "wuxi",
+                "firstletter": "wx",
+                "cityAdcode": "320200",
+                "cityCode": "0510",
+                "name": "无锡市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "wenzhou",
+                "firstletter": "wz",
+                "cityAdcode": "330300",
+                "cityCode": "0577",
+                "name": "温州市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "wuhu",
+                "firstletter": "wh",
+                "cityAdcode": "340200",
+                "cityCode": "0553",
+                "name": "芜湖市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "weifang",
+                "firstletter": "wf",
+                "cityAdcode": "370700",
+                "cityCode": "0536",
+                "name": "潍坊市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "weihai",
+                "firstletter": "wh",
+                "cityAdcode": "371000",
+                "cityCode": "0631",
+                "name": "威海市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "wuhan",
+                "firstletter": "wh",
+                "cityAdcode": "420100",
+                "cityCode": "027",
+                "name": "武汉市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "wuzhou",
+                "firstletter": "wz",
+                "cityAdcode": "450400",
+                "cityCode": "0774",
+                "name": "梧州市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "wanning",
+                "firstletter": "wn",
+                "cityAdcode": "469006",
+                "cityCode": "1898",
+                "name": "万宁市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "wenchang",
+                "firstletter": "wc",
+                "cityAdcode": "469005",
+                "cityCode": "1893",
+                "name": "文昌市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "wuzhishan",
+                "firstletter": "wzs",
+                "cityAdcode": "469001",
+                "cityCode": "1897",
+                "name": "五指山市",
+                "provinceName": "海南省",
+                "provinceAdcode": "460000"
+            },
+            {
+                "pinyin": "wenshanzhuangzumiaozuzizhizhou",
+                "firstletter": "wszzmzzzz",
+                "cityAdcode": "532600",
+                "cityCode": "0876",
+                "name": "文山壮族苗族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "weinan",
+                "firstletter": "wn",
+                "cityAdcode": "610500",
+                "cityCode": "0913",
+                "name": "渭南市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "wuwei",
+                "firstletter": "ww",
+                "cityAdcode": "620600",
+                "cityCode": "1935",
+                "name": "武威市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "wuzhong",
+                "firstletter": "wz",
+                "cityAdcode": "640300",
+                "cityCode": "0953",
+                "name": "吴忠市",
+                "provinceName": "宁夏回族自治区",
+                "provinceAdcode": "640000"
+            },
+            {
+                "pinyin": "wulumuqi",
+                "firstletter": "wlmq",
+                "cityAdcode": "650100",
+                "cityCode": "0991",
+                "name": "乌鲁木齐市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            },
+            {
+                "pinyin": "wujiaqu",
+                "firstletter": "wjq",
+                "cityAdcode": "659004",
+                "cityCode": "1994",
+                "name": "五家渠市",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "X": [
+            {
+                "pinyin": "xingtai",
+                "firstletter": "xt",
+                "cityAdcode": "130500",
+                "cityCode": "0319",
+                "name": "邢台市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "xinzhou",
+                "firstletter": "xz",
+                "cityAdcode": "140900",
+                "cityCode": "0350",
+                "name": "忻州市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "xinganmeng",
+                "firstletter": "xam",
+                "cityAdcode": "152200",
+                "cityCode": "0482",
+                "name": "兴安盟",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "xilinguolemeng",
+                "firstletter": "xlglm",
+                "cityAdcode": "152500",
+                "cityCode": "0479",
+                "name": "锡林郭勒盟",
+                "provinceName": "内蒙古自治区",
+                "provinceAdcode": "150000"
+            },
+            {
+                "pinyin": "xuzhou",
+                "firstletter": "xz",
+                "cityAdcode": "320300",
+                "cityCode": "0516",
+                "name": "徐州市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "xuancheng",
+                "firstletter": "xc",
+                "cityAdcode": "341800",
+                "cityCode": "0563",
+                "name": "宣城市",
+                "provinceName": "安徽省",
+                "provinceAdcode": "340000"
+            },
+            {
+                "pinyin": "xinyu",
+                "firstletter": "xy",
+                "cityAdcode": "360500",
+                "cityCode": "0790",
+                "name": "新余市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "xinxiang",
+                "firstletter": "xx",
+                "cityAdcode": "410700",
+                "cityCode": "0373",
+                "name": "新乡市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "xuchang",
+                "firstletter": "xc",
+                "cityAdcode": "411000",
+                "cityCode": "0374",
+                "name": "许昌市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "xinyang",
+                "firstletter": "xy",
+                "cityAdcode": "411500",
+                "cityCode": "0376",
+                "name": "信阳市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "xiangyang",
+                "firstletter": "xy",
+                "cityAdcode": "420600",
+                "cityCode": "0710",
+                "name": "襄阳市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "xiaogan",
+                "firstletter": "xg",
+                "cityAdcode": "420900",
+                "cityCode": "0712",
+                "name": "孝感市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "xianning",
+                "firstletter": "xn",
+                "cityAdcode": "421200",
+                "cityCode": "0715",
+                "name": "咸宁市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "xiantao",
+                "firstletter": "xt",
+                "cityAdcode": "429004",
+                "cityCode": "0728",
+                "name": "仙桃市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "xiangtan",
+                "firstletter": "xt",
+                "cityAdcode": "430300",
+                "cityCode": "0732",
+                "name": "湘潭市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "xiangxitujiazumiaozuzizhizhou",
+                "firstletter": "xxtjzmzzzz",
+                "cityAdcode": "433100",
+                "cityCode": "0743",
+                "name": "湘西土家族苗族自治州",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "xishuangbannadaizuzizhizhou",
+                "firstletter": "xsbndzzzz",
+                "cityAdcode": "532800",
+                "cityCode": "0691",
+                "name": "西双版纳傣族自治州",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "xian",
+                "firstletter": "xa",
+                "cityAdcode": "610100",
+                "cityCode": "029",
+                "name": "西安市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "xianyang",
+                "firstletter": "xy",
+                "cityAdcode": "610400",
+                "cityCode": "0910",
+                "name": "咸阳市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "xining",
+                "firstletter": "xn",
+                "cityAdcode": "630100",
+                "cityCode": "0971",
+                "name": "西宁市",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            }
+        ],
+        "Y": [
+            {
+                "pinyin": "yangquan",
+                "firstletter": "yq",
+                "cityAdcode": "140300",
+                "cityCode": "0353",
+                "name": "阳泉市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "yuncheng",
+                "firstletter": "yc",
+                "cityAdcode": "140800",
+                "cityCode": "0359",
+                "name": "运城市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "yingkou",
+                "firstletter": "yk",
+                "cityAdcode": "210800",
+                "cityCode": "0417",
+                "name": "营口市",
+                "provinceName": "辽宁省",
+                "provinceAdcode": "210000"
+            },
+            {
+                "pinyin": "yanbianchaoxianzuzizhizhou",
+                "firstletter": "ybcxzzzz",
+                "cityAdcode": "222400",
+                "cityCode": "1433",
+                "name": "延边朝鲜族自治州",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "yichun",
+                "firstletter": "yc",
+                "cityAdcode": "230700",
+                "cityCode": "0458",
+                "name": "伊春市",
+                "provinceName": "黑龙江省",
+                "provinceAdcode": "230000"
+            },
+            {
+                "pinyin": "yancheng",
+                "firstletter": "yc",
+                "cityAdcode": "320900",
+                "cityCode": "0515",
+                "name": "盐城市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "yangzhou",
+                "firstletter": "yz",
+                "cityAdcode": "321000",
+                "cityCode": "0514",
+                "name": "扬州市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "yingtan",
+                "firstletter": "yt",
+                "cityAdcode": "360600",
+                "cityCode": "0701",
+                "name": "鹰潭市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "yichun",
+                "firstletter": "yc",
+                "cityAdcode": "360900",
+                "cityCode": "0795",
+                "name": "宜春市",
+                "provinceName": "江西省",
+                "provinceAdcode": "360000"
+            },
+            {
+                "pinyin": "yantai",
+                "firstletter": "yt",
+                "cityAdcode": "370600",
+                "cityCode": "0535",
+                "name": "烟台市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "yichang",
+                "firstletter": "yc",
+                "cityAdcode": "420500",
+                "cityCode": "0717",
+                "name": "宜昌市",
+                "provinceName": "湖北省",
+                "provinceAdcode": "420000"
+            },
+            {
+                "pinyin": "yueyang",
+                "firstletter": "yy",
+                "cityAdcode": "430600",
+                "cityCode": "0730",
+                "name": "岳阳市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "yiyang",
+                "firstletter": "yy",
+                "cityAdcode": "430900",
+                "cityCode": "0737",
+                "name": "益阳市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "yongzhou",
+                "firstletter": "yz",
+                "cityAdcode": "431100",
+                "cityCode": "0746",
+                "name": "永州市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "yangjiang",
+                "firstletter": "yj",
+                "cityAdcode": "441700",
+                "cityCode": "0662",
+                "name": "阳江市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "yunfu",
+                "firstletter": "yf",
+                "cityAdcode": "445300",
+                "cityCode": "0766",
+                "name": "云浮市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "yulin",
+                "firstletter": "yl",
+                "cityAdcode": "450900",
+                "cityCode": "0775",
+                "name": "玉林市",
+                "provinceName": "广西壮族自治区",
+                "provinceAdcode": "450000"
+            },
+            {
+                "pinyin": "yibin",
+                "firstletter": "yb",
+                "cityAdcode": "511500",
+                "cityCode": "0831",
+                "name": "宜宾市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "yaan",
+                "firstletter": "ya",
+                "cityAdcode": "511800",
+                "cityCode": "0835",
+                "name": "雅安市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "yuxi",
+                "firstletter": "yx",
+                "cityAdcode": "530400",
+                "cityCode": "0877",
+                "name": "玉溪市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "yanan",
+                "firstletter": "ya",
+                "cityAdcode": "610600",
+                "cityCode": "0911",
+                "name": "延安市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "yulin",
+                "firstletter": "yl",
+                "cityAdcode": "610800",
+                "cityCode": "0912",
+                "name": "榆林市",
+                "provinceName": "陕西省",
+                "provinceAdcode": "610000"
+            },
+            {
+                "pinyin": "yushuzangzuzizhizhou",
+                "firstletter": "yszzzzz",
+                "cityAdcode": "632700",
+                "cityCode": "0976",
+                "name": "玉树藏族自治州",
+                "provinceName": "青海省",
+                "provinceAdcode": "630000"
+            },
+            {
+                "pinyin": "yinchuan",
+                "firstletter": "yc",
+                "cityAdcode": "640100",
+                "cityCode": "0951",
+                "name": "银川市",
+                "provinceName": "宁夏回族自治区",
+                "provinceAdcode": "640000"
+            },
+            {
+                "pinyin": "yilihasakezizhizhou",
+                "firstletter": "ylhskzzz",
+                "cityAdcode": "654000",
+                "cityCode": "0999",
+                "name": "伊犁哈萨克自治州",
+                "provinceName": "新疆维吾尔自治区",
+                "provinceAdcode": "650000"
+            }
+        ],
+        "Z": [
+            {
+                "pinyin": "zhangjiakou",
+                "firstletter": "zjk",
+                "cityAdcode": "130700",
+                "cityCode": "0313",
+                "name": "张家口市",
+                "provinceName": "河北省",
+                "provinceAdcode": "130000"
+            },
+            {
+                "pinyin": "zhangzhi",
+                "firstletter": "zz",
+                "cityAdcode": "140400",
+                "cityCode": "0355",
+                "name": "长治市",
+                "provinceName": "山西省",
+                "provinceAdcode": "140000"
+            },
+            {
+                "pinyin": "zhangchun",
+                "firstletter": "zc",
+                "cityAdcode": "220100",
+                "cityCode": "0431",
+                "name": "长春市",
+                "provinceName": "吉林省",
+                "provinceAdcode": "220000"
+            },
+            {
+                "pinyin": "zhenjiang",
+                "firstletter": "zj",
+                "cityAdcode": "321100",
+                "cityCode": "0511",
+                "name": "镇江市",
+                "provinceName": "江苏省",
+                "provinceAdcode": "320000"
+            },
+            {
+                "pinyin": "zhoushan",
+                "firstletter": "zs",
+                "cityAdcode": "330900",
+                "cityCode": "0580",
+                "name": "舟山市",
+                "provinceName": "浙江省",
+                "provinceAdcode": "330000"
+            },
+            {
+                "pinyin": "zhangzhou",
+                "firstletter": "zz",
+                "cityAdcode": "350600",
+                "cityCode": "0596",
+                "name": "漳州市",
+                "provinceName": "福建省",
+                "provinceAdcode": "350000"
+            },
+            {
+                "pinyin": "zibo",
+                "firstletter": "zb",
+                "cityAdcode": "370300",
+                "cityCode": "0533",
+                "name": "淄博市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "zaozhuang",
+                "firstletter": "zz",
+                "cityAdcode": "370400",
+                "cityCode": "0632",
+                "name": "枣庄市",
+                "provinceName": "山东省",
+                "provinceAdcode": "370000"
+            },
+            {
+                "pinyin": "zhengzhou",
+                "firstletter": "zz",
+                "cityAdcode": "410100",
+                "cityCode": "0371",
+                "name": "郑州市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "zhoukou",
+                "firstletter": "zk",
+                "cityAdcode": "411600",
+                "cityCode": "0394",
+                "name": "周口市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "zhumadian",
+                "firstletter": "zmd",
+                "cityAdcode": "411700",
+                "cityCode": "0396",
+                "name": "驻马店市",
+                "provinceName": "河南省",
+                "provinceAdcode": "410000"
+            },
+            {
+                "pinyin": "zhangsha",
+                "firstletter": "zs",
+                "cityAdcode": "430100",
+                "cityCode": "0731",
+                "name": "长沙市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "zhuzhou",
+                "firstletter": "zz",
+                "cityAdcode": "430200",
+                "cityCode": "0733",
+                "name": "株洲市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "zhangjiajie",
+                "firstletter": "zjj",
+                "cityAdcode": "430800",
+                "cityCode": "0744",
+                "name": "张家界市",
+                "provinceName": "湖南省",
+                "provinceAdcode": "430000"
+            },
+            {
+                "pinyin": "zhuhai",
+                "firstletter": "zh",
+                "cityAdcode": "440400",
+                "cityCode": "0756",
+                "name": "珠海市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "zhanjiang",
+                "firstletter": "zj",
+                "cityAdcode": "440800",
+                "cityCode": "0759",
+                "name": "湛江市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "zhaoqing",
+                "firstletter": "zq",
+                "cityAdcode": "441200",
+                "cityCode": "0758",
+                "name": "肇庆市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "zhongshan",
+                "firstletter": "zs",
+                "cityAdcode": "442000",
+                "cityCode": "0760",
+                "name": "中山市",
+                "provinceName": "广东省",
+                "provinceAdcode": "440000"
+            },
+            {
+                "pinyin": "zhongqingjiaoxian",
+                "firstletter": "zqjx",
+                "cityAdcode": "500200",
+                "cityCode": "023",
+                "name": "重庆郊县",
+                "provinceName": "重庆市",
+                "provinceAdcode": "500000"
+            },
+            {
+                "pinyin": "zigong",
+                "firstletter": "zg",
+                "cityAdcode": "510300",
+                "cityCode": "0813",
+                "name": "自贡市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "ziyang",
+                "firstletter": "zy",
+                "cityAdcode": "512000",
+                "cityCode": "0832",
+                "name": "资阳市",
+                "provinceName": "四川省",
+                "provinceAdcode": "510000"
+            },
+            {
+                "pinyin": "zunyi",
+                "firstletter": "zy",
+                "cityAdcode": "520300",
+                "cityCode": "0852",
+                "name": "遵义市",
+                "provinceName": "贵州省",
+                "provinceAdcode": "520000"
+            },
+            {
+                "pinyin": "zhaotong",
+                "firstletter": "zt",
+                "cityAdcode": "530600",
+                "cityCode": "0870",
+                "name": "昭通市",
+                "provinceName": "云南省",
+                "provinceAdcode": "530000"
+            },
+            {
+                "pinyin": "zhangye",
+                "firstletter": "zy",
+                "cityAdcode": "620700",
+                "cityCode": "0936",
+                "name": "张掖市",
+                "provinceName": "甘肃省",
+                "provinceAdcode": "620000"
+            },
+            {
+                "pinyin": "zhongwei",
+                "firstletter": "zw",
+                "cityAdcode": "640500",
+                "cityCode": "1953",
+                "name": "中卫市",
+                "provinceName": "宁夏回族自治区",
+                "provinceAdcode": "640000"
+            }
+        ]
+}

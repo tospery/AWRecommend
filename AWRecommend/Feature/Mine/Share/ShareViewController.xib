@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShareViewController">
+            <connections>
+                <outlet property="contentView" destination="GfO-4U-PgQ" id="Abi-VI-MkJ"/>
+                <outlet property="scrollView" destination="RMK-jg-bpL" id="3Go-M1-ANN"/>
+                <outlet property="view" destination="Rqx-pT-FKZ" id="98o-1Z-l0N"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Rqx-pT-FKZ">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMK-jg-bpL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GfO-4U-PgQ" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="505"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_share_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9V7-h8-Jsh">
+                                    <rect key="frame" x="40" y="20" width="240" height="89"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="9V7-h8-Jsh" secondAttribute="height" multiplier="27:10" id="Cnl-ho-vh9"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_share" translatesAutoresizingMaskIntoConstraints="NO" id="HDc-Ok-psY">
+                                    <rect key="frame" x="40" y="117" width="240" height="320"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="HDc-Ok-psY" secondAttribute="height" multiplier="3:4" id="ovq-NL-kQw"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fl-bk-0C7">
+                                    <rect key="frame" x="65" y="377.5" width="190" height="33.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="3Fl-bk-0C7" secondAttribute="height" multiplier="17:3" id="F1T-XR-dyK"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="btn_share"/>
+                                    <connections>
+                                        <action selector="shareButtonPressed:" destination="-1" eventType="touchUpInside" id="5eb-D2-JNn"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="HDc-Ok-psY" firstAttribute="trailing" secondItem="9V7-h8-Jsh" secondAttribute="trailing" id="25p-Vb-kM0"/>
+                                <constraint firstItem="9V7-h8-Jsh" firstAttribute="width" secondItem="GfO-4U-PgQ" secondAttribute="width" multiplier="240:320" id="92h-zG-f9b"/>
+                                <constraint firstItem="9V7-h8-Jsh" firstAttribute="top" secondItem="GfO-4U-PgQ" secondAttribute="top" constant="20" id="BKl-TX-RB9"/>
+                                <constraint firstItem="HDc-Ok-psY" firstAttribute="leading" secondItem="9V7-h8-Jsh" secondAttribute="leading" id="Xow-cL-zwz"/>
+                                <constraint firstItem="3Fl-bk-0C7" firstAttribute="width" secondItem="9V7-h8-Jsh" secondAttribute="width" multiplier="190:240" id="aqV-LJ-pY3"/>
+                                <constraint firstItem="9V7-h8-Jsh" firstAttribute="centerX" secondItem="GfO-4U-PgQ" secondAttribute="centerX" id="cap-yD-ucB"/>
+                                <constraint firstItem="3Fl-bk-0C7" firstAttribute="bottom" secondItem="HDc-Ok-psY" secondAttribute="bottom" constant="-26" id="dyo-Z4-Jye"/>
+                                <constraint firstItem="3Fl-bk-0C7" firstAttribute="centerX" secondItem="GfO-4U-PgQ" secondAttribute="centerX" id="qv6-5O-SKC"/>
+                                <constraint firstItem="HDc-Ok-psY" firstAttribute="top" secondItem="9V7-h8-Jsh" secondAttribute="bottom" constant="8" id="rg5-Gh-bn8"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="GfO-4U-PgQ" firstAttribute="top" secondItem="RMK-jg-bpL" secondAttribute="top" id="564-eU-FQ8"/>
+                        <constraint firstAttribute="bottom" secondItem="GfO-4U-PgQ" secondAttribute="bottom" id="HqA-bD-YZz"/>
+                        <constraint firstItem="GfO-4U-PgQ" firstAttribute="leading" secondItem="RMK-jg-bpL" secondAttribute="leading" id="h1h-FC-hXP"/>
+                        <constraint firstItem="GfO-4U-PgQ" firstAttribute="width" secondItem="RMK-jg-bpL" secondAttribute="width" id="hZR-02-Zzb"/>
+                        <constraint firstAttribute="trailing" secondItem="GfO-4U-PgQ" secondAttribute="trailing" id="oMU-i2-942"/>
+                        <constraint firstItem="GfO-4U-PgQ" firstAttribute="height" secondItem="RMK-jg-bpL" secondAttribute="height" constant="1" id="rKg-qe-F18"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RMK-jg-bpL" firstAttribute="top" secondItem="Rqx-pT-FKZ" secondAttribute="top" id="Ymc-aF-9LD"/>
+                <constraint firstAttribute="bottom" secondItem="RMK-jg-bpL" secondAttribute="bottom" id="b9w-RP-bym"/>
+                <constraint firstItem="RMK-jg-bpL" firstAttribute="leading" secondItem="Rqx-pT-FKZ" secondAttribute="leading" id="skp-YA-Jeg"/>
+                <constraint firstAttribute="trailing" secondItem="RMK-jg-bpL" secondAttribute="trailing" id="zTF-hi-nmZ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_share" width="255" height="45"/>
+        <image name="ic_share_logo" width="270" height="100"/>
+        <image name="img_share" width="300" height="400"/>
+    </resources>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompResultBrandViewController">
+            <connections>
+                <outlet property="tableView" destination="pCv-7B-0LX" id="iA6-0b-kgE"/>
+                <outlet property="view" destination="pnn-lf-mtZ" id="s7n-WX-0be"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pnn-lf-mtZ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="pCv-7B-0LX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="wt1-uH-46D" userLabel="headerView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view key="tableFooterView" contentMode="scaleToFill" id="oL2-ZA-M16" userLabel="footerView">
+                        <rect key="frame" x="0.0" y="568" width="320" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ef8-vf-k6I"/>
+                        <outlet property="delegate" destination="-1" id="J1J-x4-5yI"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pCv-7B-0LX" firstAttribute="leading" secondItem="pnn-lf-mtZ" secondAttribute="leading" id="2CI-0A-AjN"/>
+                <constraint firstAttribute="bottom" secondItem="pCv-7B-0LX" secondAttribute="bottom" id="2Eq-Hx-suH"/>
+                <constraint firstItem="pCv-7B-0LX" firstAttribute="top" secondItem="pnn-lf-mtZ" secondAttribute="top" id="MPs-dJ-Phd"/>
+                <constraint firstAttribute="trailing" secondItem="pCv-7B-0LX" secondAttribute="trailing" id="xjb-o2-Whg"/>
+            </constraints>
+            <point key="canvasLocation" x="188" y="-342"/>
+        </view>
+    </objects>
+</document>

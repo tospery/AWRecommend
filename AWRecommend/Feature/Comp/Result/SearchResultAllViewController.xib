@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchResultAllViewController">
+            <connections>
+                <outlet property="tableView" destination="ufx-PL-HJC" id="pBo-Bc-v38"/>
+                <outlet property="view" destination="CE3-Yw-AWh" id="daL-1V-bcJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="CE3-Yw-AWh">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXh-RB-Vsq">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WY0-gb-tqY" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ufx-PL-HJC">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="NIu-A3-3IZ" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="oTC-AE-aPA" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="568" width="320" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="yQv-pk-udU"/>
+                                        <outlet property="delegate" destination="-1" id="dv0-1E-cb8"/>
+                                        <outlet property="emptyDataSetDelegate" destination="-1" id="hIy-05-1G2"/>
+                                        <outlet property="emptyDataSetSource" destination="-1" id="tVt-7p-Q7c"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="ufx-PL-HJC" firstAttribute="top" secondItem="WY0-gb-tqY" secondAttribute="top" id="Ck6-xl-FnR"/>
+                                <constraint firstAttribute="trailing" secondItem="ufx-PL-HJC" secondAttribute="trailing" id="Jmp-am-f2O"/>
+                                <constraint firstItem="ufx-PL-HJC" firstAttribute="leading" secondItem="WY0-gb-tqY" secondAttribute="leading" id="atR-lM-H1j"/>
+                                <constraint firstAttribute="bottom" secondItem="ufx-PL-HJC" secondAttribute="bottom" id="ysi-bs-igv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="WY0-gb-tqY" secondAttribute="trailing" id="4Gz-V1-cKS"/>
+                        <constraint firstItem="WY0-gb-tqY" firstAttribute="top" secondItem="FXh-RB-Vsq" secondAttribute="top" id="8Xr-UA-WLC"/>
+                        <constraint firstItem="WY0-gb-tqY" firstAttribute="height" secondItem="FXh-RB-Vsq" secondAttribute="height" id="UWL-pj-Alg"/>
+                        <constraint firstItem="WY0-gb-tqY" firstAttribute="leading" secondItem="FXh-RB-Vsq" secondAttribute="leading" id="h9A-c6-JDM"/>
+                        <constraint firstAttribute="bottom" secondItem="WY0-gb-tqY" secondAttribute="bottom" id="hEm-7H-6oP"/>
+                        <constraint firstItem="WY0-gb-tqY" firstAttribute="width" secondItem="FXh-RB-Vsq" secondAttribute="width" id="p5q-Sh-jAf"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FXh-RB-Vsq" firstAttribute="leading" secondItem="CE3-Yw-AWh" secondAttribute="leading" id="XRS-j2-hPh"/>
+                <constraint firstItem="FXh-RB-Vsq" firstAttribute="top" secondItem="CE3-Yw-AWh" secondAttribute="top" id="fPa-jZ-E0p"/>
+                <constraint firstAttribute="bottom" secondItem="FXh-RB-Vsq" secondAttribute="bottom" id="hyR-CA-AlW"/>
+                <constraint firstAttribute="trailing" secondItem="FXh-RB-Vsq" secondAttribute="trailing" id="iEX-L6-6lo"/>
+            </constraints>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

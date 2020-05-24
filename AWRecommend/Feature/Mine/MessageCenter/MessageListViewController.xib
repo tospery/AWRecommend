@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageListViewController">
+            <connections>
+                <outlet property="contentView" destination="LLm-om-bzV" id="VBc-eo-uhP"/>
+                <outlet property="scrollView" destination="DPd-3a-wXw" id="PbL-eP-IO2"/>
+                <outlet property="tableView" destination="JMP-Sp-Yz6" id="H5m-5q-aO9"/>
+                <outlet property="view" destination="K5Q-Sy-bo6" id="lDv-Rl-2o3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="K5Q-Sy-bo6">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPd-3a-wXw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-om-bzV" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JMP-Sp-Yz6">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view key="tableHeaderView" contentMode="scaleToFill" id="5tG-7R-1oJ" userLabel="headerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view key="tableFooterView" contentMode="scaleToFill" id="BaK-PV-Ice" userLabel="footerView">
+                                        <rect key="frame" x="0.0" y="504" width="320" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="yl6-c0-QUs"/>
+                                        <outlet property="delegate" destination="-1" id="SNn-zz-gEr"/>
+                                        <outlet property="emptyDataSetDelegate" destination="-1" id="Eve-fq-Fif"/>
+                                        <outlet property="emptyDataSetSource" destination="-1" id="1ZB-KD-eqH"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="JMP-Sp-Yz6" secondAttribute="bottom" id="5AB-SJ-FNi"/>
+                                <constraint firstItem="JMP-Sp-Yz6" firstAttribute="leading" secondItem="LLm-om-bzV" secondAttribute="leading" id="NYR-3I-v97"/>
+                                <constraint firstAttribute="trailing" secondItem="JMP-Sp-Yz6" secondAttribute="trailing" id="RCD-iB-2sA"/>
+                                <constraint firstItem="JMP-Sp-Yz6" firstAttribute="top" secondItem="LLm-om-bzV" secondAttribute="top" id="mOg-z9-4Wq"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="LLm-om-bzV" secondAttribute="bottom" id="3Kw-HR-u6n"/>
+                        <constraint firstItem="LLm-om-bzV" firstAttribute="leading" secondItem="DPd-3a-wXw" secondAttribute="leading" id="5Eo-Lz-p6r"/>
+                        <constraint firstItem="LLm-om-bzV" firstAttribute="top" secondItem="DPd-3a-wXw" secondAttribute="top" id="LAT-Aj-Wv3"/>
+                        <constraint firstItem="LLm-om-bzV" firstAttribute="width" secondItem="DPd-3a-wXw" secondAttribute="width" id="NFT-px-O9u"/>
+                        <constraint firstItem="LLm-om-bzV" firstAttribute="height" secondItem="DPd-3a-wXw" secondAttribute="height" id="TNj-WX-21V"/>
+                        <constraint firstAttribute="trailing" secondItem="LLm-om-bzV" secondAttribute="trailing" id="Xnt-HA-Z36"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DPd-3a-wXw" firstAttribute="leading" secondItem="K5Q-Sy-bo6" secondAttribute="leading" id="G18-27-xqs"/>
+                <constraint firstItem="DPd-3a-wXw" firstAttribute="top" secondItem="K5Q-Sy-bo6" secondAttribute="top" id="KB8-dw-Bx7"/>
+                <constraint firstAttribute="trailing" secondItem="DPd-3a-wXw" secondAttribute="trailing" id="o7P-0z-LpV"/>
+                <constraint firstAttribute="bottom" secondItem="DPd-3a-wXw" secondAttribute="bottom" id="xSK-bB-31b"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="222" y="310"/>
+        </view>
+    </objects>
+</document>

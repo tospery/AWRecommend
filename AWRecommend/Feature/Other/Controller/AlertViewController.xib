@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertViewController">
+            <connections>
+                <outlet property="messageLabel" destination="LaC-dI-pUW" id="rLt-Sm-CcS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="buttons" destination="n0t-tC-qyA" id="BpK-kz-jmx"/>
+                <outletCollection property="buttons" destination="fuR-aH-5iD" id="ME0-in-uR0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_delete_collection" translatesAutoresizingMaskIntoConstraints="NO" id="kUf-GC-Rcq">
+                    <rect key="frame" x="75" y="30" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kUf-GC-Rcq" secondAttribute="height" multiplier="1:1" id="h46-G1-o5C"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您是否确认删除该收藏？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaC-dI-pUW">
+                    <rect key="frame" x="42.5" y="122" width="146" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxs-Lz-jvv">
+                    <rect key="frame" x="0.0" y="174" width="230" height="36"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6xX-Gq-I0H">
+                            <rect key="frame" x="0.0" y="0.0" width="230" height="1"/>
+                            <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Khe-8M-x8x"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0t-tC-qyA">
+                            <rect key="frame" x="0.0" y="1" width="115" height="35"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="取 消">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="fPZ-7v-PrB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuR-aH-5iD">
+                            <rect key="frame" x="115" y="1" width="115" height="35"/>
+                            <color key="backgroundColor" red="0.32156862749999998" green="0.73725490199999999" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="确 定"/>
+                            <connections>
+                                <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="Vyh-bq-s8q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="fuR-aH-5iD" firstAttribute="leading" secondItem="n0t-tC-qyA" secondAttribute="trailing" id="98F-3K-hjc"/>
+                        <constraint firstAttribute="bottom" secondItem="n0t-tC-qyA" secondAttribute="bottom" id="FVS-id-JSV"/>
+                        <constraint firstAttribute="bottom" secondItem="fuR-aH-5iD" secondAttribute="bottom" id="KWM-lK-QZe"/>
+                        <constraint firstAttribute="width" secondItem="lxs-Lz-jvv" secondAttribute="height" multiplier="115:18" id="KiQ-1R-XVK"/>
+                        <constraint firstItem="n0t-tC-qyA" firstAttribute="width" secondItem="lxs-Lz-jvv" secondAttribute="width" multiplier="1:2" id="PJZ-DT-ZnF"/>
+                        <constraint firstItem="6xX-Gq-I0H" firstAttribute="leading" secondItem="lxs-Lz-jvv" secondAttribute="leading" id="aZc-J3-7wg"/>
+                        <constraint firstItem="6xX-Gq-I0H" firstAttribute="top" secondItem="lxs-Lz-jvv" secondAttribute="top" id="bMx-tq-PzY"/>
+                        <constraint firstAttribute="trailing" secondItem="fuR-aH-5iD" secondAttribute="trailing" id="dg5-TL-sxo"/>
+                        <constraint firstAttribute="trailing" secondItem="6xX-Gq-I0H" secondAttribute="trailing" id="gWw-uz-ytm"/>
+                        <constraint firstItem="n0t-tC-qyA" firstAttribute="top" secondItem="6xX-Gq-I0H" secondAttribute="bottom" id="o8j-QP-TKw"/>
+                        <constraint firstItem="n0t-tC-qyA" firstAttribute="leading" secondItem="lxs-Lz-jvv" secondAttribute="leading" id="oBG-jo-z05"/>
+                        <constraint firstItem="fuR-aH-5iD" firstAttribute="top" secondItem="6xX-Gq-I0H" secondAttribute="bottom" id="u4r-U7-eUE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LaC-dI-pUW" firstAttribute="top" secondItem="kUf-GC-Rcq" secondAttribute="bottom" constant="12" id="3JF-rh-wch"/>
+                <constraint firstAttribute="bottom" secondItem="lxs-Lz-jvv" secondAttribute="bottom" id="4wi-SF-fYP"/>
+                <constraint firstItem="kUf-GC-Rcq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LVA-2h-g1T"/>
+                <constraint firstItem="kUf-GC-Rcq" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="80:230" id="V6w-9I-57f"/>
+                <constraint firstItem="LaC-dI-pUW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YMd-L6-qQL"/>
+                <constraint firstItem="kUf-GC-Rcq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="70:105" id="k9U-7N-TwX"/>
+                <constraint firstAttribute="trailing" secondItem="lxs-Lz-jvv" secondAttribute="trailing" id="lX2-UV-cNg"/>
+                <constraint firstItem="lxs-Lz-jvv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lga-uB-nyd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_delete_collection" width="94" height="94"/>
+    </resources>
+</document>
